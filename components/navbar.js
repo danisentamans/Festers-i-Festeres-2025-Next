@@ -1,8 +1,13 @@
 import React from 'react'
 
 import PropTypes from 'prop-types'
+import { Link as ScrollLink } from 'react-scroll'
 
 const Navbar = (props) => {
+  const handleHomeClick = () => {
+    window.location.reload() // Recargar la página
+  }
+
   return (
     <>
       <header className="navbar-container">
@@ -14,11 +19,22 @@ const Navbar = (props) => {
           />
           <div data-thq="thq-navbar-nav" className="navbar-desktop-menu">
             <nav className="navbar-links1">
-              <span className="thq-body-small thq-link">{props.link1}</span>
-              <span className="thq-body-small thq-link">{props.link2}</span>
-              <span className="thq-body-small thq-link">{props.link3}</span>
+              <span className="thq-body-small thq-link" onClick={handleHomeClick}>{props.link1}</span>
+               {/* Link para "Festes" que desplaza a la sección de "Upcoming Events" */}
+               <ScrollLink to="upcoming-events" smooth={true} duration={500} offset={-70}>
+                <span className="thq-body-small thq-link">{props.link2}</span>
+              </ScrollLink>
+              {/* Link para "Rifa" que desplaza a la sección de "Steps" */}
+              <ScrollLink to="steps" smooth={true} duration={500} offset={-70}>
+                <span className="thq-body-small thq-link">{props.link3}</span>
+              </ScrollLink>
+              <ScrollLink to="testimonial" smooth={true} duration={500} offset={-70}>
+                <span className="thq-body-small thq-link">{props.link4}</span>
+              </ScrollLink>
+              <ScrollLink to="contact" smooth={true} duration={500} offset={-70}>
+                <span className="thq-body-small thq-link">{props.link5}</span>
+              </ScrollLink>
             </nav>
-            <div className="navbar-buttons1"></div>
           </div>
           <div data-thq="thq-burger-menu" className="navbar-burger-menu">
             <svg viewBox="0 0 1024 1024" className="navbar-icon1">

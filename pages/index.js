@@ -4,7 +4,6 @@ import Head from 'next/head'
 import Navbar from '../components/navbar'
 import Hero from '../components/hero'
 import Timeline11 from '../components/timeline11'
-import Timeline6 from '../components/timeline6'
 import Features2 from '../components/features2'
 import Steps from '../components/steps'
 import Testimonial from '../components/testimonial'
@@ -22,8 +21,10 @@ const Home = (props) => {
         </Head>
         <Navbar
           link1="Inici"
-          link2="Events"
+          link2="Festes"
           link3="Rifa"
+          link4="Presidents"
+          link5="Contacte"
           logoSrc="/imagen-1500h.webp"
         ></Navbar>
         <Hero
@@ -32,7 +33,7 @@ const Home = (props) => {
           image1Src="/eliminar-1500w.webp"
           rootClassName="heroroot-class-name"
         ></Hero>
-        <h1>Pròximes Festes</h1>
+        <h1 id="upcoming-events">Pròximes Festes</h1>
         <Timeline11
           date1={
             <Fragment>
@@ -44,17 +45,17 @@ const Home = (props) => {
           }
           date2={
             <Fragment>
-              <span className="home-text14 thq-body-small">June 3, 2025</span>
+              <span className="home-text14 thq-body-small">Carregant...</span>
             </Fragment>
           }
           date3={
             <Fragment>
-              <span className="home-text15 thq-body-small">June 5, 2025</span>
+              <span className="home-text15 thq-body-small">Carregant...</span>
             </Fragment>
           }
           date4={
             <Fragment>
-              <span className="home-text16 thq-body-small">June 7, 2025</span>
+              <span className="home-text16 thq-body-small">Carregant...</span>
             </Fragment>
           }
           card1Title={
@@ -65,20 +66,20 @@ const Home = (props) => {
           card2Title={
             <Fragment>
               <span className="home-text18 thq-heading-3">
-                Parade and Float Competition
+              Espereu per a gaudirles...
               </span>
             </Fragment>
           }
           card3Title={
             <Fragment>
               <span className="home-text19 thq-heading-3">
-                Cultural Workshops
+              Espereu per a gaudirles...
               </span>
             </Fragment>
           }
           card4Title={
             <Fragment>
-              <span className="home-text20 thq-heading-3">Closing Gala</span>
+              <span className="home-text20 thq-heading-3">Espereu per a gaudirles...</span>
             </Fragment>
           }
           card1Content={
@@ -102,9 +103,7 @@ const Home = (props) => {
           card2Content={
             <Fragment>
               <span className="home-text24 thq-body-small">
-                Witness the colorful parade through the streets of Guadassuar
-                featuring beautifully decorated floats. Cheer for your favorite
-                float in the competition.
+              Carregant les millors festes per a vosaltres!
               </span>
             </Fragment>
           }
@@ -121,8 +120,7 @@ const Home = (props) => {
           card3Content={
             <Fragment>
               <span className="home-text27 thq-body-small">
-                Participate in interactive workshops to learn about traditional
-                crafts, culinary delights, and cultural practices of Guadassuar.
+              Carregant les millors festes per a vosaltres!
               </span>
             </Fragment>
           }
@@ -139,133 +137,37 @@ const Home = (props) => {
           card4Content={
             <Fragment>
               <span className="home-text30 thq-body-small">
-                Celebrate the end of Festers i Festeres Guadassuar 2025 with a
-                spectacular gala featuring live music, dance performances, and
-                fireworks.
+              Carregant les millors festes per a vosaltres!
               </span>
             </Fragment>
           }
         ></Timeline11>
-        <Timeline6
-          title1={
-            <Fragment>
-              <span className="home-text31 thq-heading-2">Timeline</span>
-            </Fragment>
-          }
-          action1={
-            <Fragment>
-              <span className="home-text32">Primary action</span>
-            </Fragment>
-          }
-          action2={
-            <Fragment>
-              <span className="home-text33">Seconday action</span>
-            </Fragment>
-          }
-          content1={
-            <Fragment>
-              <span className="home-text34 thq-body-small">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat
-              </span>
-            </Fragment>
-          }
-          card1Date={
-            <Fragment>
-              <span className="home-text35 thq-heading-3">
-                12 Octubre, 2025
-              </span>
-            </Fragment>
-          }
-          card2Date={
-            <Fragment>
-              <span className="home-text36 thq-heading-3">June 2-4, 2025</span>
-            </Fragment>
-          }
-          card3Date={
-            <Fragment>
-              <span className="home-text37 thq-heading-3">June 5, 2025</span>
-            </Fragment>
-          }
-          card4Date={
-            <Fragment>
-              <span className="home-text38 thq-heading-3">23/04/2023</span>
-            </Fragment>
-          }
-          card1Content={
-            <Fragment>
-              <span className="home-text39 thq-body-small">
-                La millor festa de la cervesa de tota la Comunitat Valenciana te
-                espera, vine a catar les nostres cerveses i tapes!
-              </span>
-            </Fragment>
-          }
-          card1Heading={
-            <Fragment>
-              <span className="home-text40 thq-heading-3">OktoberFest</span>
-            </Fragment>
-          }
-          card2Content={
-            <Fragment>
-              <span className="home-text41 thq-body-small">
-                Participate in various workshops and cultural activities to
-                immerse yourself in the rich heritage of Guadassuar.
-              </span>
-            </Fragment>
-          }
-          card2Heading={
-            <Fragment>
-              <span className="home-text42 thq-heading-3">
-                Workshops and Cultural Activities
-              </span>
-            </Fragment>
-          }
-          card3Content={
-            <Fragment>
-              <span className="home-text43 thq-body-small">
-                Don&apos;t miss the grand finale gala night filled with
-                performances, awards, and a celebration of Guadassuar&apos;s
-                culture.
-              </span>
-            </Fragment>
-          }
-          card3Heading={
-            <Fragment>
-              <span className="home-text44 thq-heading-3">Closing Gala</span>
-            </Fragment>
-          }
-          card4Content={
-            <Fragment>
-              <span className="home-text45 thq-body-small">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat
-              </span>
-            </Fragment>
-          }
-          card4Heading={
-            <Fragment>
-              <span className="home-text46 thq-heading-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              </span>
-            </Fragment>
-          }
-          card1ImageSrc="/eliminar2-200w.webp"
-        ></Timeline6>
-        <Features2></Features2>
-        <Steps></Steps>
+        {/* <Features2></Features2> */}
+         {/* Sección de Steps con ID "steps" */}
+         <div id="steps">
+          <Steps />
+        </div>
+        <div id="testimonial">
         <Testimonial
           content1="Presidents que ens faran gaudir d'aquetes festes"
           heading1="Presidents"
           author1Name="Paula"
+          review1="La força imparable que porta l'alegria i la passió a cada racó de Guadassuar!"
+          author1Position = "Presidenta"
           author2Name="Jose Manuel"
-          author3Name="Pilar"
-          author4Name="Miguel Garcia"
+          review2="El lideratge tranquil que uneix tradició i festa amb un somriure contagiós!"
+          author2Position = "President"
+          author3Name="Laia"
+          review3="La llum que fa brillar cada celebració amb la seua energia i entusiasme inesgotable!"
+          author3Position = "Vicepresidenta"
+          author4Name="Miguel"
+          review4="El cor valent que transforma cada moment en una explosió de diversió i germanor!"
+          author4Position = "Vicepresident"
         ></Testimonial>
+        </div>
+        <div id="contact">
         <Contact></Contact>
+        </div>
         <Footer></Footer>
       </div>
       <style jsx>

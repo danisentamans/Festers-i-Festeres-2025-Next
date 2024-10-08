@@ -37,7 +37,7 @@ const Contact = (props) => {
               </svg>
               <div className="contact-contact-info2">
                 <div className="contact-content5">
-                  <h3 className="contact-text6 thq-heading-3">Phone</h3>
+                  <h3 className="contact-text6 thq-heading-3">Mòvil</h3>
                   <p className="contact-text7 thq-body-large">
                     {props.content4}
                   </p>
@@ -53,7 +53,7 @@ const Contact = (props) => {
               </svg>
               <div className="contact-contact-info3">
                 <div className="contact-content7">
-                  <h3 className="contact-text8 thq-heading-3">Office</h3>
+                  <h3 className="contact-text8 thq-heading-3">Cau</h3>
                   <p className="contact-text9 thq-body-large">
                     {props.content5}
                   </p>
@@ -220,14 +220,14 @@ const Contact = (props) => {
 
 Contact.defaultProps = {
   address1: '123 Festivity Street, Guadassuar, Spain',
-  content3: 'You can also visit us in person at the address provided above.',
-  heading1: 'Contact Us',
-  content5: 'We look forward to hearing from you!',
+  content3: 'No dubtes en enviarnos un correu!',
+  heading1: 'Contacta',
+  content5: 'Ens garadaria que ens visitares!',
   email1: 'info@festersiguadassuar2025.com',
-  phone1: '+123-456-7890',
-  content1: 'Feel free to reach out to us for any inquiries or feedback.',
-  content2: 'Our team is happy to assist you.',
-  content4: 'Stay connected with us on social media for the latest updates.',
+  phone1: '+34 659988452',
+  content1: 'No ho dubtes!',
+  content2: 'Estarem encantats de que ens contactes',
+  content4: 'Estigues en contacte amb nosatres per WhatsApp!',
 }
 
 Contact.propTypes = {

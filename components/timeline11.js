@@ -224,7 +224,6 @@ const Timeline11 = (props) => {
                     </Fragment>
                   )}
                 </span>
-                <div className="timeline11-container33"></div>
               </div>
               <img
                 alt={props.card1ImageAlt}
@@ -249,7 +248,7 @@ const Timeline11 = (props) => {
                   {props.card2Title ?? (
                     <Fragment>
                       <h3 className="timeline11-text49 thq-heading-3">
-                        Parade and Float Competition
+                        Espereu per a gaudirles...
                       </h3>
                     </Fragment>
                   )}
@@ -258,42 +257,18 @@ const Timeline11 = (props) => {
                   {props.card2Content ?? (
                     <Fragment>
                       <span className="timeline11-text45 thq-body-small">
-                        Witness the colorful parade through the streets of
-                        Guadassuar featuring beautifully decorated floats. Cheer
-                        for your favorite float in the competition.
+                        Carregant les millors festes per a vosaltres!
                       </span>
                     </Fragment>
                   )}
                 </span>
                 <div className="timeline11-container35">
-                  <button type="button" className="thq-button-filled">
-                    <span>
-                      {props.card2Action1 ?? (
-                        <Fragment>
-                          <span className="timeline11-text51">
-                            See Route Map
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
-                  </button>
-                  <button type="button" className="thq-button-outline">
-                    <span>
-                      {props.card2Action2 ?? (
-                        <Fragment>
-                          <span className="timeline11-text41">
-                            Join the Competition
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
-                  </button>
                 </div>
               </div>
               <img
                 alt={props.card2ImageAlt}
-                src={props.card2ImageSrc}
-                className="timeline11-image2 thq-img-ratio-1-1"
+                src="/loading.gif"
+                className="timeline11-image1 thq-img-ratio-1-1"
               />
             </div>
           )}
@@ -330,41 +305,25 @@ const Timeline11 = (props) => {
                   )}
                 </span>
                 <div className="timeline11-container37">
-                  <button type="button" className="thq-button-filled">
-                    <span>
-                      {props.card3Action1 ?? (
-                        <Fragment>
-                          <span className="timeline11-text39">
-                            View Workshop Schedule
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
-                  </button>
-                  <button type="button" className="thq-button-outline">
-                    <span>
-                      {props.card3Action2 ?? (
-                        <Fragment>
-                          <span className="timeline11-text37">
-                            Register Now
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
-                  </button>
                 </div>
               </div>
               <img
                 alt={props.card3ImageAlt}
-                src={props.card3ImageSrc}
-                className="timeline11-image3 thq-img-ratio-1-1"
+                src="/loading.gif"
+                className="timeline11-image1 thq-img-ratio-1-1"
               />
             </div>
           )}
           {container3 && (
             <div className="timeline11-container38">
               <div className="timeline11-content-container4 thq-flex-column">
-                <h3>Date</h3>
+                <h3>{props.date4 ?? (
+                    <Fragment>
+                      <span className="timeline11-text40 thq-body-small">
+                        June 5, 2025
+                      </span>
+                    </Fragment>
+                  )}</h3>
                 <h3>
                   {props.card4Title ?? (
                     <Fragment>
@@ -386,34 +345,12 @@ const Timeline11 = (props) => {
                   )}
                 </span>
                 <div className="timeline11-container39">
-                  <button type="button" className="thq-button-filled">
-                    <span>
-                      {props.card4Action1 ?? (
-                        <Fragment>
-                          <span className="timeline11-text48">
-                            Gala Highlights
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
-                  </button>
-                  <button type="button" className="thq-button-outline">
-                    <span>
-                      {props.card4Action2 ?? (
-                        <Fragment>
-                          <span className="timeline11-text50">
-                            Buy Gala Tickets
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
-                  </button>
                 </div>
               </div>
               <img
                 alt={props.card4ImageAlt}
-                src={props.card4ImageSrc}
-                className="timeline11-image4 thq-img-ratio-1-1"
+                src="/loading.gif"
+                className="timeline11-image1 thq-img-ratio-1-1"
               />
             </div>
           )}
@@ -696,10 +633,14 @@ const Timeline11 = (props) => {
             flex-direction: row;
           }
           .timeline11-image1 {
-            flex: 1;
-            max-width: var(--dl-size-size-xxlarge);
-            align-self: flex-end;
-          }
+    flex: 1;
+    max-width: 35%;
+    align-self: flex-end;
+    object-fit: contain; /* Evita que se corte la imagen */
+    width: 100%; /* Asegúrate de que ocupe todo el espacio disponible */
+    height: auto; /* Mantén la relación de aspecto de la imagen */
+}
+
           .timeline11-container34 {
             gap: var(--dl-space-space-threeunits);
             width: 100%;
@@ -930,7 +871,7 @@ Timeline11.defaultProps = {
     'https://images.unsplash.com/photo-1720238281873-51965cef637d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODI5NTgxOXw&ixlib=rb-4.0.3&q=80&w=600',
   card2Action2: undefined,
   card4ImageSrc:
-    'https://images.unsplash.com/photo-1645799442013-7a78c649e179?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODI5NTgxOXw&ixlib=rb-4.0.3&q=80&w=600',
+    "/loading.gif",
   card3Content: undefined,
   card1Content: undefined,
   date4: undefined,

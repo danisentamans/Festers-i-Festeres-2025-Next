@@ -12,14 +12,15 @@
   "author": "TeleportHQ",
   "license": "MIT",
   "dependencies": {
+    "dangerous-html": "0.1.13",
+    "festers-i-festeres-2025": "file:",
     "next": "^12.1.10",
+    "prop-types": "15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "prop-types": "15.7.2",
-    "dangerous-html": "0.1.13"
+    "react-scroll": "^1.9.0"
   },
   "engines": {
     "node": ">=18.x"
-  },
-  "devDependencies": {}
+  }
 }
