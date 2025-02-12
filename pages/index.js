@@ -30,7 +30,8 @@ const Home = (props) => {
         <Hero
           content1="En aquesta página podràs informarte de tot el que necessites per a gaudir del millor any de la teua vida!"
           heading1="Benvingut a la pàgina dels Festers de Sant Roc i Festeres de la Assumpció de Guadassuar 2025!"
-          image1Src="/eliminar-1500w.webp"
+          image1Src="/october.jpg"
+          image2Src="/reset.jpg"
           rootClassName="heroroot-class-name"
         ></Hero>
         <h1 id="upcoming-events">Pròximes Festes</h1>
@@ -40,9 +41,31 @@ const Home = (props) => {
               <span className="home-text11 thq-body-small">12 d'octubre '24</span>
             </Fragment>
           }
+          card1Title={
+            <Fragment>
+              <span className="home-text17 thq-heading-3">OktoberFest</span>
+            </Fragment>
+          }
+          card1Content={
+            <Fragment>
+              <span className="home-text21 thq-body-small">
+                La millor festa de la cervesa.
+              </span>
+            </Fragment>
+          }
           date2={
             <Fragment>
               <span className="home-text14 thq-body-small">30 de novembre '24</span>
+            </Fragment>
+          }
+          card2Title={
+            <Fragment>
+              <span className="home-text18 thq-heading-3">Reset  Party</span>
+            </Fragment>
+          }
+          card2Action1={
+            <Fragment>
+              <span className="home-text22">Després de la DANA, tocava fer <i>reset</i>... Sopar, bingo i discomòvil per a tot el poble!</span>
             </Fragment>
           }
           date3={
@@ -50,63 +73,14 @@ const Home = (props) => {
               <span className="home-text15 thq-body-small">Carregant...</span>
             </Fragment>
           }
-          date4={
-            <Fragment>
-              <span className="home-text16 thq-body-small">Carregant...</span>
-            </Fragment>
-          }
-          card1Title={
-            <Fragment>
-              <span className="home-text17 thq-heading-3">OktoberFest</span>
-            </Fragment>
-          }
-          card2Title={
-            <Fragment>
-              <span className="home-text18 thq-heading-3">
-                Espereu per a gaudirles...
-              </span>
-            </Fragment>
-          }
           card3Title={
             <Fragment>
-              <span className="home-text19 thq-heading-3">
-                Espereu per a gaudirles...
-              </span>
-            </Fragment>
-          }
-          card4Title={
-            <Fragment>
-              <span className="home-text20 thq-heading-3">Espereu per a gaudirles...</span>
-            </Fragment>
-          }
-          card1Content={
-            <Fragment>
-              <span className="home-text21 thq-body-small">
-                La millor festa de la cervesa de tota la Comunitat Valenciana te
-                espera, vine a catar les nostres cerveses i tapes!
-              </span>
-            </Fragment>
-          }
-          card2Action1={
-            <Fragment>
-              <span className="home-text22">See Route Map</span>
-            </Fragment>
-          }
-          card2Action2={
-            <Fragment>
-              <span className="home-text23">Join the Competition</span>
-            </Fragment>
-          }
-          card2Content={
-            <Fragment>
-              <span className="home-text24 thq-body-small">
-                Carregant les millors festes per a vosaltres!
-              </span>
+              <span className="home-text19 thq-heading-3">Mig any danser</span>
             </Fragment>
           }
           card3Action1={
             <Fragment>
-              <span className="home-text25">View Workshop Schedule</span>
+              <span className="home-text25">Pròximament més informació.</span>
             </Fragment>
           }
           card3Action2={
@@ -119,6 +93,16 @@ const Home = (props) => {
               <span className="home-text27 thq-body-small">
                 Carregant les millors festes per a vosaltres!
               </span>
+            </Fragment>
+          }
+          date4={
+            <Fragment>
+              <span className="home-text16 thq-body-small">Carregant...</span>
+            </Fragment>
+          }
+          card4Title={
+            <Fragment>
+              <span className="home-text20 thq-heading-3">Torrades</span>
             </Fragment>
           }
           card4Action1={
