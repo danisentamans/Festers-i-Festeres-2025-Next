@@ -16,7 +16,7 @@ const Steps = (props) => {
               </p>
             </div>
             {/* Añadiendo el paso 1 */}
-            <div className="steps-container3">
+            <div className="steps-container1">
               <div className="steps-container4 thq-card">
                 <h2 className="thq-heading-2">{props.step1Title}</h2>
                 <img
@@ -35,7 +35,7 @@ const Steps = (props) => {
                 <label className="steps-text14 thq-heading-3">01</label>
               </div>
               {/* Añadiendo el paso 2 */}
-              <div className="steps-container5 thq-card">
+              <div className="steps-container2 thq-card">
                 <h2 className="thq-heading-2">{props.step2Title}</h2>
                 <label className="steps-text16 thq-heading-3">02</label>
                 <img
@@ -53,7 +53,7 @@ const Steps = (props) => {
                 </span>
               </div>
               {/* Añadiendo el paso 3 */}
-              <div className="steps-container4 thq-card">
+              <div className="steps-container3 thq-card">
                 <h2 className="thq-heading-2">{props.step3Title}</h2>
                 <img
                   alt={props.imageAlt5}
@@ -71,7 +71,7 @@ const Steps = (props) => {
                 <label className="steps-text14 thq-heading-3">03</label>
               </div>
               {/* Añadiendo el paso 4 */}
-              <div className="steps-container5 thq-card">
+              <div className="steps-container4 thq-card">
                 <h2 className="thq-heading-2">{props.step4Title}</h2>
                 <label className="steps-text16 thq-heading-3">04</label>
                 <img
@@ -91,7 +91,7 @@ const Steps = (props) => {
                 </span>
               </div>
               {/* Añadiendo el paso 5 */}
-              <div className="steps-container4 thq-card">
+              <div className="steps-container1 thq-card">
                 <h2 className="thq-heading-2">{props.step5Title}</h2>
                 <img
                   alt={props.imageAlt9}
@@ -111,9 +111,9 @@ const Steps = (props) => {
                 <label className="steps-text14 thq-heading-3">05</label>
               </div>
               {/* Añadiendo el paso 6 */}
-              <div className="steps-container5 thq-card">
+              <div className="steps-container2 thq-card">
                 <h2 className="thq-heading-2">{props.step6Title}</h2>
-                <label className="steps-text16 thq-heading-3">07</label>
+                <label className="steps-text16 thq-heading-3">06</label>
                 <img
                   alt={props.imageAlt11}
                   src={props.imageSrc11}
@@ -131,9 +131,9 @@ const Steps = (props) => {
                 </span>
               </div>
               {/* Añadiendo el paso 7 */}
-              <div className="steps-container4 thq-card">
+              <div className="steps-container3 thq-card">
                 <h2 className="thq-heading-2">{props.step7Title}</h2>
-                <label className="steps-text16 thq-heading-3">06</label>
+                <label className="steps-text16 thq-heading-3">07</label>
                 <img
                   alt={props.imageAlt13}
                   src={props.imageSrc13}
@@ -150,7 +150,7 @@ const Steps = (props) => {
                   {props.step7AditionalDescription}
                 </span>
               </div>
-              
+
             </div>
           </div>
         </div>
@@ -223,7 +223,21 @@ const Steps = (props) => {
             font-style: normal;
             font-weight: 700;
           }
-          .steps-container5 {
+          .steps-container1 {
+            top: 10%;
+            position: sticky;
+            transform: rotate(2deg);
+            margin-bottom: var(--dl-space-space-twounits);
+            background-color: var(--dl-color-theme-primary1);
+          }
+          .steps-container2 {
+            top: 10%;
+            position: sticky;
+            transform: rotate(-2deg);
+            margin-bottom: var(--dl-space-space-twounits);
+            background-color: var(--dl-color-theme-primary2);
+          }
+            .steps-container3 {
             top: 10%;
             position: sticky;
             transform: rotate(2deg);
@@ -259,7 +273,7 @@ const Steps = (props) => {
             margin-top: 0%;
             text-align: center;
           }
-          .steps-container6 {
+          .steps-container4 {
             top: 10%;
             position: sticky;
             transform: rotate(-2deg);
@@ -307,10 +321,10 @@ const Steps = (props) => {
             .steps-container4 {
               width: 100%;
             }
-            .steps-container5 {
+            .steps-container3 {
               width: 100%;
             }
-            .steps-container6 {
+            .steps-container4 {
               width: 100%;
             }
             .steps-container7 {
