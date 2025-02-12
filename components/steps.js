@@ -16,7 +16,7 @@ const Steps = (props) => {
               </p>
             </div>
             {/* Añadiendo el paso 1 */}
-            <div className="steps-container1">
+            <div className="steps-container3">
               <div className="steps-container4 thq-card">
                 <h2 className="thq-heading-2">{props.step1Title}</h2>
                 <img
@@ -35,7 +35,7 @@ const Steps = (props) => {
                 <label className="steps-text14 thq-heading-3">01</label>
               </div>
               {/* Añadiendo el paso 2 */}
-              <div className="steps-container2 thq-card">
+              <div className="steps-container5 thq-card">
                 <h2 className="thq-heading-2">{props.step2Title}</h2>
                 <label className="steps-text16 thq-heading-3">02</label>
                 <img
@@ -53,7 +53,7 @@ const Steps = (props) => {
                 </span>
               </div>
               {/* Añadiendo el paso 3 */}
-              <div className="steps-container3 thq-card">
+              <div className="steps-containerA thq-card">
                 <h2 className="thq-heading-2">{props.step3Title}</h2>
                 <img
                   alt={props.imageAlt5}
@@ -71,7 +71,7 @@ const Steps = (props) => {
                 <label className="steps-text14 thq-heading-3">03</label>
               </div>
               {/* Añadiendo el paso 4 */}
-              <div className="steps-container4 thq-card">
+              <div className="steps-containerB thq-card">
                 <h2 className="thq-heading-2">{props.step4Title}</h2>
                 <label className="steps-text16 thq-heading-3">04</label>
                 <img
@@ -91,7 +91,7 @@ const Steps = (props) => {
                 </span>
               </div>
               {/* Añadiendo el paso 5 */}
-              <div className="steps-container1 thq-card">
+              <div className="steps-container4 thq-card">
                 <h2 className="thq-heading-2">{props.step5Title}</h2>
                 <img
                   alt={props.imageAlt9}
@@ -131,7 +131,7 @@ const Steps = (props) => {
                 </span>
               </div>
               {/* Añadiendo el paso 7 */}
-              <div className="steps-container3 thq-card">
+              <div className="steps-container5 thq-card">
                 <h2 className="thq-heading-2">{props.step7Title}</h2>
                 <label className="steps-text16 thq-heading-3">07</label>
                 <img
@@ -223,26 +223,26 @@ const Steps = (props) => {
             font-style: normal;
             font-weight: 700;
           }
-          .steps-container1 {
+          .steps-container5 {
+            top: 10%;
+            position: sticky;
+            transform: rotate(2deg);
+            margin-bottom: var(--dl-space-space-twounits);
+            background-color: var(--dl-color-theme-accent2);
+          }
+          .steps-containerA {
             top: 10%;
             position: sticky;
             transform: rotate(2deg);
             margin-bottom: var(--dl-space-space-twounits);
             background-color: var(--dl-color-theme-primary1);
           }
-          .steps-container2 {
+          .steps-container {
             top: 10%;
             position: sticky;
             transform: rotate(-2deg);
             margin-bottom: var(--dl-space-space-twounits);
             background-color: var(--dl-color-theme-primary2);
-          }
-            .steps-container3 {
-            top: 10%;
-            position: sticky;
-            transform: rotate(2deg);
-            margin-bottom: var(--dl-space-space-twounits);
-            background-color: var(--dl-color-theme-accent2);
           }
           .steps-text16 {
             top: var(--dl-space-space-unit);
@@ -273,7 +273,7 @@ const Steps = (props) => {
             margin-top: 0%;
             text-align: center;
           }
-          .steps-container4 {
+          .steps-container6 {
             top: 10%;
             position: sticky;
             transform: rotate(-2deg);
@@ -321,10 +321,10 @@ const Steps = (props) => {
             .steps-container4 {
               width: 100%;
             }
-            .steps-container3 {
+            .steps-container5 {
               width: 100%;
             }
-            .steps-container4 {
+            .steps-container6 {
               width: 100%;
             }
             .steps-container7 {
