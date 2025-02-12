@@ -47,8 +47,6 @@ const Hero = (props) => {
                 src="/donesdivmes.jpg"
                 className="hero-placeholder-image15 thq-img-scale thq-img-ratio-1-1"
               />
-            </div>
-            <div className="thq-animated-group-horizontal">
               <img
                 alt={props.image7Alt}
                 src="/esmorsar1bis.jpg"
@@ -113,8 +111,6 @@ const Hero = (props) => {
                 src="/donesbis.jpg"
                 className="hero-placeholder-image27 thq-img-scale thq-img-ratio-1-1"
               />
-            </div>
-            <div className="thq-animated-group-horizontal-reverse">
               <img
                 alt={props.image7Alt}
                 src="/cumples.jpg"
