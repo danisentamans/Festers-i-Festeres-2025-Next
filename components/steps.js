@@ -76,7 +76,6 @@ const Steps = (props) => {
                   alt={props.imageAlt7}
                   src={props.imageSrc7}
                   className="steps-image1"
-                  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
                 />
                 <span className="steps-text13 thq-body-small">{props.step4Description}</span>
                 <span className="steps-text10 thq-body-xs">{props.step4AditionalDescription}</span>
@@ -91,11 +90,6 @@ const Steps = (props) => {
                   alt={props.imageAlt9}
                   src={props.imageSrc9}
                   className="steps-image1"
-                />
-                <img
-                  alt={props.imageAlt9}
-                  src={props.imageSrc9}
-                  className="steps-image2"
                 />
                 <span className="steps-text13 thq-body-small">{props.step5Description}</span>
                 <span className="steps-text10 thq-body-xs">{props.step5AditionalDescription}</span>
@@ -128,11 +122,6 @@ const Steps = (props) => {
                   src={props.imageSrc12}
                   className="steps-image1"
                 />
-                <img
-                  alt={props.imageAlt12}
-                  src={props.imageSrc12}
-                  className="steps-image2"
-                />
                 <span className="steps-text17 thq-body-small">{props.step7Description}</span>
                 <span className="steps-text10 thq-body-xs">{props.step7AditionalDescription}</span>
               </div>
@@ -145,11 +134,6 @@ const Steps = (props) => {
                   alt={props.imageAlt13}
                   src={props.imageSrc13}
                   className="steps-image1"
-                />
-                <img
-                  alt={props.imageAlt13}
-                  src={props.imageSrc13}
-                  className="steps-image2"
                 />
                 <span className="steps-text13 thq-body-small">{props.step8Description}</span>
                 <span className="steps-text10 thq-body-xs">{props.step8AditionalDescription}</span>
