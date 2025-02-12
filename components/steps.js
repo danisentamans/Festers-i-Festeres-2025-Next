@@ -133,7 +133,7 @@ const Steps = (props) => {
               {/* Añadiendo el paso 7 */}
               <div className="steps-container4 thq-card">
                 <h2 className="thq-heading-2">{props.step6Title}</h2>
-                <label className="steps-text16 thq-heading-3">0</label>
+                <label className="steps-text16 thq-heading-3">07</label>
                 <img
                   alt={props.imageAlt13}
                   src={props.imageSrc13}
@@ -330,11 +330,11 @@ Steps.defaultProps = {
   imageSrc13: '/rifes/numeros/num_guanyador_21desembre.jpg',
   imageSrc14: '/rifes/premiats/guanyador_21desembre.jpg',
 
-/*   step6Title: "Divendres de mes de febrer",
-  step6Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número ****",
-  step6AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
-  imageSrc9: '/rifes/numeros/num_guanyador_21desembre.jpg',
-  imageSrc10: '/rifes/premiats/guanyador_21desembre.jpg', */
+  /*   step6Title: "Divendres de mes de febrer",
+    step6Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número ****",
+    step6AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+    imageSrc9: '/rifes/numeros/num_guanyador_21desembre.jpg',
+    imageSrc10: '/rifes/premiats/guanyador_21desembre.jpg', */
 
   step5Title: "Divendres de mes de gener",
   step5Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número 6154",
@@ -410,6 +410,23 @@ Steps.propTypes = {
   imageAlt9: PropTypes.string,
   imageSrc10: PropTypes.string,
   imageAlt10: PropTypes.string,
+
+  step6Title: PropTypes.string,
+  step6Description: PropTypes.string,
+  step6AditionalDescription: PropTypes.string,
+  imageSrc11: PropTypes.string,
+  imageAlt11: PropTypes.string,
+  imageSrc12: PropTypes.string,
+  imageAlt12: PropTypes.string,
+
+  step7Title: PropTypes.string,
+  step7Description: PropTypes.string,
+  step7AditionalDescription: PropTypes.string,
+  imageSrc13: PropTypes.string,
+  imageAlt13: PropTypes.string,
+  imageSrc14: PropTypes.string,
+  imageAlt14: PropTypes.string,
+
 };
 
 
