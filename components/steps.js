@@ -280,7 +280,7 @@ Steps.defaultProps = {
 
   step3Title: "Divendres de mes d'octubre",
   step3Description: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 7864",
-  additionalText: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+  /*additionalText: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",*/
   imageSrc5: '/rifes/numeros/num_guanyador_octubre.jpg',
 
   step3Title: "Divendres de mes de setembre",
@@ -295,7 +295,7 @@ Steps.defaultProps = {
 
   step1Title: "15 d'agost, dia de l'Assumpció",
   step1Description: "Guanyadora d'un pernil amb el número 7021",
-  imageSrc1: '/rifes/numeros/num_guanyador15A.jpg',
+  imageSrc1: '/rifes/numeros/num_guanyador_15A.jpg',
   imageSrc2: '/rifes/premiats/guanyador_15A.jpeg',
   
 
