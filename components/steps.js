@@ -111,9 +111,9 @@ const Steps = (props) => {
                 <label className="steps-text14 thq-heading-3">05</label>
               </div>
               {/* Añadiendo el paso 6 */}
-              <div className="steps-container4 thq-card">
+              <div className="steps-container5 thq-card">
                 <h2 className="thq-heading-2">{props.step6Title}</h2>
-                <label className="steps-text16 thq-heading-3">06</label>
+                <label className="steps-text16 thq-heading-3">07</label>
                 <img
                   alt={props.imageAlt11}
                   src={props.imageSrc11}
@@ -131,9 +131,9 @@ const Steps = (props) => {
                 </span>
               </div>
               {/* Añadiendo el paso 7 */}
-              <div className="steps-container5 thq-card">
-                <h2 className="thq-heading-2">{props.step6Title}</h2>
-                <label className="steps-text16 thq-heading-3">07</label>
+              <div className="steps-container4 thq-card">
+                <h2 className="thq-heading-2">{props.step7Title}</h2>
+                <label className="steps-text16 thq-heading-3">06</label>
                 <img
                   alt={props.imageAlt13}
                   src={props.imageSrc13}
@@ -150,6 +150,7 @@ const Steps = (props) => {
                   {props.step7AditionalDescription}
                 </span>
               </div>
+              
             </div>
           </div>
         </div>
@@ -330,16 +331,16 @@ Steps.defaultProps = {
   imageSrc13: '/rifes/numeros/num_guanyador_21desembre.jpg',
   imageSrc14: '/rifes/premiats/guanyador_21desembre.jpg',
 
-  /*   step6Title: "Divendres de mes de febrer",
-    step6Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número ****",
-    step6AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
-    imageSrc9: '/rifes/numeros/num_guanyador_21desembre.jpg',
-    imageSrc10: '/rifes/premiats/guanyador_21desembre.jpg', */
+  step6Title: "Divendres de mes de febrer",
+  step6Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número ****",
+  step6AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+  imageSrc9: '/rifes/numeros/num_guanyador_febrer.jpg',
+  imageSrc10: '/rifes/premiats/guanyador_febrer.jpg',
 
   step5Title: "Divendres de mes de gener",
   step5Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número 6154",
   step5AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
-  imageSrc8: '/rifes/numeros/num_guanyador_desembre.jpg',
+  imageSrc8: '/rifes/numeros/num_guanyador_gener.jpg',
 
   step6Title: "21 de desembre",
   step6Description: "Guanyadora d'un pernil amb el número 9849",
