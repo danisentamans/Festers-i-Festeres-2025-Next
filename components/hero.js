@@ -50,33 +50,33 @@ const Hero = (props) => {
             </div>
             <div className="thq-animated-group-horizontal">
               <img
-                alt={props.image1Alt}
+                alt={props.image7Alt}
                 src="/esmorsar1bis.jpg"
                 className="hero-placeholder-image16 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image2Alt}
+                alt={props.image8Alt}
                 src="/festeres.jpg"
                 className="hero-placeholder-image17 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image3Alt}
+                alt={props.image9Alt}
                 src="/guiris.jpg"
                 className="hero-placeholder-image18 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image4Alt}
+                alt={props.image10Alt}
                 src="/primerdinar.jpg"
                 className="hero-placeholder-image19 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image5Alt}
+                alt={props.image11Alt}
                 src="/skandalo.jpg"
                 className="hero-placeholder-image20 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt="Hero Image"
-                src="https://images.unsplash.com/photo-1534312527009-56c7016453e6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIxfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                alt={props.image12Alt}
+                src="/pare_noel.jpg"
                 className="hero-placeholder-image21 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
@@ -84,32 +84,32 @@ const Hero = (props) => {
           <div className="hero-row-container2 thq-animated-group-container-horizontal thq-mask-image-horizontal">
             <div className="thq-animated-group-horizontal-reverse">
               <img
-                alt={props.image7Alt}
+                alt={props.image1Alt}
                 src="/xarangaforn.jpg"
                 className="hero-placeholder-image22 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image8Alt}
+                alt={props.image2Alt}
                 src="/xarangultimdia.jpg"
                 className="hero-placeholder-image23 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image9Alt}
+                alt={props.image3Alt}
                 src="/paello.jpg"
                 className="hero-placeholder-image24 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image10Alt}
+                alt={props.image4Alt}
                 src="/gaspaxa.jpg"
                 className="hero-placeholder-image25 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image11Alt}
+                alt={props.image5Alt}
                 src="/quinatana.jpg"
                 className="hero-placeholder-image26 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt={props.image12Alt}
+                alt={props.image6Alt}
                 src="/donesbis.jpg"
                 className="hero-placeholder-image27 thq-img-scale thq-img-ratio-1-1"
               />
@@ -141,8 +141,8 @@ const Hero = (props) => {
                 className="hero-placeholder-image32 thq-img-scale thq-img-ratio-1-1"
               />
               <img
-                alt="Hero Image"
-                src="https://images.unsplash.com/photo-1568214379698-8aeb8c6c6ac8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxncmFmaWN8ZW58MHx8fHwxNzE1Nzk0OTk5fDA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                alt={props.image12Alt}
+                src="/primer_div_febrer.jpg"
                 className="hero-placeholder-image33 thq-img-scale thq-img-ratio-1-1"
               />
             </div>
