@@ -17,7 +17,7 @@ const Steps = (props) => {
             </div>
             {/* Añadiendo el paso 1 */}
             <div className="steps-container3">
-              <div className="steps-container4 thq-card">
+              <div className="steps-containerA thq-card">
                 <h2 className="thq-heading-2">{props.step1Title}</h2>
                 <img
                   alt={props.imageAlt1}
@@ -35,7 +35,7 @@ const Steps = (props) => {
                 <label className="steps-text14 thq-heading-3">01</label>
               </div>
               {/* Añadiendo el paso 2 */}
-              <div className="steps-container5 thq-card">
+              <div className="steps-containerB thq-card">
                 <h2 className="thq-heading-2">{props.step2Title}</h2>
                 <label className="steps-text16 thq-heading-3">02</label>
                 <img
@@ -53,7 +53,7 @@ const Steps = (props) => {
                 </span>
               </div>
               {/* Añadiendo el paso 3 */}
-              <div className="steps-containerA thq-card">
+              <div className="steps-containerC thq-card">
                 <h2 className="thq-heading-2">{props.step3Title}</h2>
                 <img
                   alt={props.imageAlt5}
@@ -71,7 +71,7 @@ const Steps = (props) => {
                 <label className="steps-text14 thq-heading-3">03</label>
               </div>
               {/* Añadiendo el paso 4 */}
-              <div className="steps-containerB thq-card">
+              <div className="steps-containerD thq-card">
                 <h2 className="thq-heading-2">{props.step4Title}</h2>
                 <label className="steps-text16 thq-heading-3">04</label>
                 <img
@@ -91,7 +91,7 @@ const Steps = (props) => {
                 </span>
               </div>
               {/* Añadiendo el paso 5 */}
-              <div className="steps-container4 thq-card">
+              <div className="steps-containerA thq-card">
                 <h2 className="thq-heading-2">{props.step5Title}</h2>
                 <img
                   alt={props.imageAlt9}
@@ -131,7 +131,7 @@ const Steps = (props) => {
                 </span>
               </div>
               {/* Añadiendo el paso 7 */}
-              <div className="steps-container5 thq-card">
+              <div className="steps-containerB thq-card">
                 <h2 className="thq-heading-2">{props.step7Title}</h2>
                 <label className="steps-text16 thq-heading-3">07</label>
                 <img
@@ -235,14 +235,27 @@ const Steps = (props) => {
             position: sticky;
             transform: rotate(2deg);
             margin-bottom: var(--dl-space-space-twounits);
-            background-color: var(--dl-color-theme-primary1);
+            background-color: var(--dl-color-theme-accent1);
           }
-          .steps-container {
+          .steps-containerB {
             top: 10%;
             position: sticky;
             transform: rotate(-2deg);
             margin-bottom: var(--dl-space-space-twounits);
-            background-color: var(--dl-color-theme-primary2);
+            background-color: var(--dl-color-theme-accent2);
+          }
+          .steps-containerC {
+            top: 10%;
+            position: sticky;
+            transform: rotate(2deg);
+            margin-bottom: #f9d35c;
+          }
+          .steps-containerD {
+            top: 10%;
+            position: sticky;
+            transform: rotate(-2deg);
+            margin-bottom: var(--dl-space-space-twounits);
+            background-color: #ff8f8f;
           }
           .steps-text16 {
             top: var(--dl-space-space-unit);
