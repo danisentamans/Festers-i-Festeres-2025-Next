@@ -11,7 +11,7 @@ const Steps = (props) => {
             <div className="steps-section-header">
               <h2 className="thq-heading-2">Rifes guanyadores</h2>
               <p className="thq-body-large">
-                Así podreu vore els afortunats guanyadors de les rifes que hem
+                Así podreu vore els números premiats de les rifes i els afortunats que hem
                 fet durant l&apos;any.
               </p>
             </div>
@@ -277,40 +277,28 @@ const Steps = (props) => {
 }
 
 Steps.defaultProps = {
-  step1Title: "Rifa dia 15 d'agost",
-  step1Description: "Guanyadora d'1 pernil amb el número 7021",
-  imageSrc1: '/numero_guanyador_1.jpg',
-  imageAlt1: 'image1 alt text',
-  imageSrc2: '/guanyadora_rifa_1.jpeg',
-  imageAlt2: 'image2 alt text',
+
+  step3Title: "Divendres de mes d'octubre",
+  step3Description: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 7864",
+  additionalText: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+  imageSrc5: '/rifes/numeros/num_guanyador_octubre.jpg',
+
+  step3Title: "Divendres de mes de setembre",
+  step3Description: "Guanyador d'una cistella del Forn Pa i dolç Gran Via amb el número 7864",
+  imageSrc5: '/rifes/numeros/num_guanyador_setembre.jpg',
+  imageSrc6: '/rifes/premiats/guanyador_setembre.jpg',
+
+  step2Title: "16 d'agost, dia de Sant  Roc",
+  step2Description: "Guanyador d'un dinar poliesportiu municipal amb el número 2846",
+  imageSrc3: '/rifes/numeros/num_guanyador_16A.jpg',
+  imageSrc4: '/rifes/premiats/guanyador_16A.jpg',
+
+  step1Title: "15 d'agost, dia de l'Assumpció",
+  step1Description: "Guanyadora d'un pernil amb el número 7021",
+  imageSrc1: '/rifes/numeros/num_guanyador15A.jpg',
+  imageSrc2: '/rifes/premiats/guanyador_15A.jpeg',
   
-  step2Title: "Rifa dia 16 d'agost",
-  step2Description: "Guanyador de 1 dinar poli municipal amb el número 2846",
-  imageSrc3: '/numero_guanyador_2.jpg',
-  imageAlt3: 'image3 alt text',
-  imageSrc4: '/guanyador_numero_2.jpg',
-  imageAlt4: 'image4 alt text',
 
-  step3Title: "Rifa Divendres de mes de Setembre",
-  step3Description: "Guanyador de 1 cistella del Forn Pa i dolç Gran Via amb el número 7864",
-  imageSrc5: '/numero_guanyador_3.jpg',
-  imageAlt5: 'image5 alt text',
-  imageSrc6: '/guanyador_numero_3.jpg',
-  imageAlt6: 'image6 alt text',
-
-  step4Title: "Rifa dia 18 d'agost",
-  step4Description: "Guanyadora d'1 pernil amb el número 7024",
-  imageSrc7: '',
-  imageAlt7: 'image7 alt text',
-  imageSrc8: '',
-  imageAlt8: 'image8 alt text',
-
-  step5Title: "Rifa dia 19 d'agost",
-  step5Description: "Guanyadora d'1 pernil amb el número 7025",
-  imageSrc9: '',
-  imageAlt9: 'image9 alt text',
-  imageSrc10: '',
-  imageAlt10: 'image10 alt text',
 };
 
 
