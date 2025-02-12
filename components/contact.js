@@ -222,7 +222,8 @@ Contact.defaultProps = {
   address1: 'C. Industria, 1, Guadasuar, Valencia',
   content3: 'No dubtes en enviarnos un correu!',
   heading1: 'Contacta',
-  content5: 'Ens garadaria que ens visitares!',
+  phone: "Fica't en contacte amb algun fester o festera"
+  content5: 'Ens agradaria que ens visitares!',
   email1: 'susiroc2025@gmail.com',
   content1: 'No ho dubtes!',
   content2: 'Estarem encantats de que ens contactes',

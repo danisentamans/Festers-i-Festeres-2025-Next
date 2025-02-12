@@ -141,7 +141,7 @@ Footer.defaultProps = {
   /* Props */
   logoSrc: "/imagen1.png",
   logoAlt: "Festers i Festeres Guadassuar 2025",
-  column2Title: "Seguiu-nos a les reds socials",
+  column2Title: "Seguiu-nos a les xarxes socials",
   link6: "https://www.instagram.com/festerssantroc2025/",
   link7: "https://www.instagram.com/festeresassumpcio2025/",
   content3: "Stay connected for the latest news and updates!",

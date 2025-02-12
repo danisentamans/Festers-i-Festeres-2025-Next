@@ -118,7 +118,7 @@ const Hero = (props) => {
               />
               <img
                 alt={props.image8Alt}
-                src="/pare_noel2.jpg"
+                src="/pare_noel_2.jpg"
                 className="hero-placeholder-image29 thq-img-scale thq-img-ratio-1-1"
               />
               <img
