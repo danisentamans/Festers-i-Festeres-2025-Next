@@ -34,7 +34,7 @@ const Home = (props) => {
           image2Src="/reset.jpg"
           rootClassName="heroroot-class-name"
         ></Hero>
-        <h1 id="upcoming-events">Pròximes Festes</h1>
+        <h1 id="upcoming-events">Festes</h1>
         <Timeline11
           date1={
             <Fragment>

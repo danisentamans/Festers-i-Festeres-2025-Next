@@ -77,6 +77,11 @@ const Steps = (props) => {
                   src={props.imageSrc7}
                   className="steps-image1"
                 />
+                <img
+                  alt={props.imageAlt7}
+                  src={props.imageSrc7}
+                  className="steps-image1"
+                />
                 <span className="steps-text13 thq-body-small">{props.step4Description}</span>
                 <span className="steps-text10 thq-body-xs">{props.step4AditionalDescription}</span>
 
@@ -86,6 +91,11 @@ const Steps = (props) => {
               <div className="steps-containerA thq-card">
                 <h2 className="thq-heading-2">{props.step5Title}</h2>
                 <label className="steps-text14 thq-heading-3">05</label>
+                <img
+                  alt={props.imageAlt9}
+                  src={props.imageSrc9}
+                  className="steps-image1"
+                />
                 <img
                   alt={props.imageAlt9}
                   src={props.imageSrc9}
@@ -122,6 +132,11 @@ const Steps = (props) => {
                   src={props.imageSrc12}
                   className="steps-image1"
                 />
+                <img
+                  alt={props.imageAlt12}
+                  src={props.imageSrc12}
+                  className="steps-image1"
+                />
                 <span className="steps-text17 thq-body-small">{props.step7Description}</span>
                 <span className="steps-text10 thq-body-xs">{props.step7AditionalDescription}</span>
               </div>
@@ -130,6 +145,11 @@ const Steps = (props) => {
               <div className="steps-containerD thq-card">
                 <h2 className="thq-heading-2">{props.step8Title}</h2>
                 <label className="steps-text16 thq-heading-3">08</label>
+                <img
+                  alt={props.imageAlt13}
+                  src={props.imageSrc13}
+                  className="steps-image1"
+                />
                 <img
                   alt={props.imageAlt13}
                   src={props.imageSrc13}
@@ -148,7 +168,11 @@ const Steps = (props) => {
                   src={props.imageSrc15}
                   className="steps-image1"
                 />
-
+                <img
+                  alt={props.imageAlt16}
+                  src={props.imageSrc16}
+                  className="steps-image1"
+                />
                 <span className="steps-text13 thq-body-small">{props.step9Description}</span>
                 <span className="steps-text5 thq-body-xs">{props.step9AditionalDescription}</span>
               </div>
@@ -354,17 +378,18 @@ const Steps = (props) => {
 
 Steps.defaultProps = {
   step9Title: "Rifa extraordinària",
-  step9Description: "Guanyador d'un Iphone 16 amb el número 6993",
+  step9Description: "Regal d'un Iphone 16 amb el número 6993",
   step9AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
-  imageSrc15: '/rifes/numeros/num_guanyador_iphone.jpg',
+  imageSrc15: '/rifes/numeros/rifa_iphone.jpg',
+  imageSrc16: '/rifes/numeros/num_guanyador_iphone.jpg',
 
   step8Title: "Divendres de mes de febrer",
-  step8Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número 0974",
+  step8Description: "Regal d'un sopar a la pizzeria Da Vito amb el número 0974",
   step8AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
   imageSrc13: '/rifes/numeros/num_guanyador_febrer.jpg',
 
   step7Title: "Divendres de mes de gener",
-  step7Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número 6154",
+  step7Description: "Regal d'un sopar a la pizzeria Da Vito amb el número 6154",
   step7AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
   imageSrc12: '/rifes/numeros/num_guanyador_gener.jpg',
 
@@ -374,12 +399,12 @@ Steps.defaultProps = {
   imageSrc11: '/rifes/premiats/guanyador_21desembre.jpg',
 
   step5Title: "Divendres de mes de desembre",
-  step5Description: "Premi d'un esmorzar a Ca Blau al número 0639",
+  step5Description: "Regal d'un esmorzar a Ca Blau al número 0639",
   step5AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
   imageSrc9: '/rifes/numeros/num_guanyador_desembre.jpg',
 
   step4Title: "Divendres de mes d'octubre",
-  step4Description: "Premi d'un esmorzar a Ca Blau al número 7864",
+  step4Description: "Regal d'un esmorzar a Ca Blau al número 7864",
   step4AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
   imageSrc7: '/rifes/numeros/num_guanyador_octubre.jpg',
 
@@ -390,7 +415,7 @@ Steps.defaultProps = {
 
   step2Title: "16 d'agost, dia de Sant  Roc",
   step2Description: "Guanyador d'un dinar poliesportiu municipal amb el número 2846",
-  imageSrc3: '/rifes/numeros/num_guanyadors_16A.jpg',
+  imageSrc3: '/rifes/numeros/num_guanyador_16A.jpg',
   imageSrc4: '/rifes/premiats/guanyador_16A.jpg',
 
   step1Title: "15 d'agost, dia de l'Assumpció",
