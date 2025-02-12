@@ -63,7 +63,7 @@ const Home = (props) => {
               <span className="home-text18 thq-heading-3">Reset  Party</span>
             </Fragment>
           }
-          card2Action1={
+          card2Content={
             <Fragment>
               <span className="home-text22">Després de la DANA, tocava fer <i>reset</i>... Sopar, bingo i discomòvil per a tot el poble!</span>
             </Fragment>
@@ -78,21 +78,9 @@ const Home = (props) => {
               <span className="home-text19 thq-heading-3">Mig any danser</span>
             </Fragment>
           }
-          card3Action1={
-            <Fragment>
-              <span className="home-text25">Pròximament més informació.</span>
-            </Fragment>
-          }
-          card3Action2={
-            <Fragment>
-              <span className="home-text26">Register Now</span>
-            </Fragment>
-          }
           card3Content={
             <Fragment>
-              <span className="home-text27 thq-body-small">
-                Carregant les millors festes per a vosaltres!
-              </span>
+              <span className="home-text25">Pròximament més informació.</span>
             </Fragment>
           }
           date4={
@@ -105,21 +93,9 @@ const Home = (props) => {
               <span className="home-text20 thq-heading-3">Torrades</span>
             </Fragment>
           }
-          card4Action1={
-            <Fragment>
-              <span className="home-text28">Gala Highlights</span>
-            </Fragment>
-          }
-          card4Action2={
-            <Fragment>
-              <span className="home-text29">Buy Gala Tickets</span>
-            </Fragment>
-          }
           card4Content={
             <Fragment>
-              <span className="home-text30 thq-body-small">
-                Carregant les millors festes per a vosaltres!
-              </span>
+              <span className="home-text25">Pròximament més informació.</span>
             </Fragment>
           }
         ></Timeline11>
