@@ -82,6 +82,7 @@ const Steps = (props) => {
                 />
                 <span className="steps-text17 thq-body-small">
                   {props.step4Description}
+                  <br />
                   {props.step4AditionalDescription}
                 </span>
               </div>
@@ -99,14 +100,36 @@ const Steps = (props) => {
                 />
                 <span className="steps-text13 thq-body-small">
                   {props.step5Description}
+                  <br />
                   {props.step5AditionalDescription}
                 </span>
                 <label className="steps-text14 thq-heading-3">05</label>
+              </div>
+              {/* Añadiendo el paso 6 */}
+              <div className="steps-container4 thq-card">
+                <h2 className="thq-heading-2">{props.step6Title}</h2>
+                <label className="steps-text16 thq-heading-3">06</label>
+                <img
+                  alt={props.imageAlt11}
+                  src={props.imageSrc11}
+                  className="steps-image1"
+                />
+                <img
+                  alt={props.imageAlt12}
+                  src={props.imageSrc12}
+                  className="steps-image2"
+                />
+                <span className="steps-text13 thq-body-small">
+                  {props.step6Description}
+                  <br />
+                  {props.step6AditionalDescription}
+                </span>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
       <style jsx>
         {`
           .steps-container1 {
@@ -275,8 +298,24 @@ const Steps = (props) => {
 }
 
 Steps.defaultProps = {
+  step6Title: "Divendres de mes de febrer",
+  step6Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número ****",
+  step6AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+  imageSrc9: '/rifes/numeros/num_guanyador_21desembre.jpg',
+  imageSrc10: '/rifes/premiats/guanyador_21desembre.jpg',
+
+  step5Title: "Divendres de mes de gener",
+  step5Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número 6154",
+  step5AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+  imageSrc8: '/rifes/numeros/num_guanyador_desembre.jpg',
+
+  step6Title: "21 de desembre",
+  step6Description: "Guanyadora d'un pernil amb el número 9849",
+  imageSrc9: '/rifes/numeros/num_guanyador_21desembre.jpg',
+  imageSrc10: '/rifes/premiats/guanyador_21desembre.jpg',
+
   step5Title: "Divendres de mes de desembre",
-  step5Description: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 7864",
+  step5Description: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 0639",
   step5AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
   imageSrc8: '/rifes/numeros/num_guanyador_desembre.jpg',
 
