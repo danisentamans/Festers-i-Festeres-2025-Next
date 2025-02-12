@@ -15,6 +15,7 @@ const Steps = (props) => {
                 fet durant l&apos;any.
               </p>
             </div>
+            {/* Añadiendo el paso 1 */}
             <div className="steps-container3">
               <div className="steps-container4 thq-card">
                 <h2 className="thq-heading-2">{props.step1Title}</h2>
@@ -33,6 +34,7 @@ const Steps = (props) => {
                 </span>
                 <label className="steps-text14 thq-heading-3">01</label>
               </div>
+              {/* Añadiendo el paso 2 */}
               <div className="steps-container5 thq-card">
                 <h2 className="thq-heading-2">{props.step2Title}</h2>
                 <label className="steps-text16 thq-heading-3">02</label>
@@ -50,6 +52,7 @@ const Steps = (props) => {
                   {props.step2Description}
                 </span>
               </div>
+              {/* Añadiendo el paso 3 */}
               <div className="steps-container4 thq-card">
                 <h2 className="thq-heading-2">{props.step3Title}</h2>
                 <img
@@ -67,6 +70,7 @@ const Steps = (props) => {
                 </span>
                 <label className="steps-text14 thq-heading-3">03</label>
               </div>
+              {/* Añadiendo el paso 4 */}
               <div className="steps-container5 thq-card">
                 <h2 className="thq-heading-2">{props.step4Title}</h2>
                 <label className="steps-text16 thq-heading-3">04</label>
@@ -86,6 +90,7 @@ const Steps = (props) => {
                   {props.step4AditionalDescription}
                 </span>
               </div>
+              {/* Añadiendo el paso 5 */}
               <div className="steps-container4 thq-card">
                 <h2 className="thq-heading-2">{props.step5Title}</h2>
                 <img
@@ -125,11 +130,31 @@ const Steps = (props) => {
                   {props.step6AditionalDescription}
                 </span>
               </div>
+              {/* Añadiendo el paso 7 */}
+              <div className="steps-container4 thq-card">
+                <h2 className="thq-heading-2">{props.step6Title}</h2>
+                <label className="steps-text16 thq-heading-3">06</label>
+                <img
+                  alt={props.imageAlt13}
+                  src={props.imageSrc13}
+                  className="steps-image1"
+                />
+                <img
+                  alt={props.imageAlt14}
+                  src={props.imageSrc14}
+                  className="steps-image2"
+                />
+                <span className="steps-text13 thq-body-small">
+                  {props.step7Description}
+                  <br />
+                  {props.step7AditionalDescription}
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      
+
       <style jsx>
         {`
           .steps-container1 {
@@ -298,11 +323,18 @@ const Steps = (props) => {
 }
 
 Steps.defaultProps = {
-  step6Title: "Divendres de mes de febrer",
+
+  step7Title: "Rifa extraordinària",
+  step7Description: "Guanyador d'un Iphone 16 amb el número ****",
+  step7AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+  imageSrc13: '/rifes/numeros/num_guanyador_21desembre.jpg',
+  imageSrc14: '/rifes/premiats/guanyador_21desembre.jpg',
+
+/*   step6Title: "Divendres de mes de febrer",
   step6Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número ****",
   step6AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
   imageSrc9: '/rifes/numeros/num_guanyador_21desembre.jpg',
-  imageSrc10: '/rifes/premiats/guanyador_21desembre.jpg',
+  imageSrc10: '/rifes/premiats/guanyador_21desembre.jpg', */
 
   step5Title: "Divendres de mes de gener",
   step5Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número 6154",
