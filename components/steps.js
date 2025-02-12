@@ -28,10 +28,6 @@ const Steps = (props) => {
                   src={props.imageSrc2}
                   className="steps-image2"
                 />
-                {/* <img
-                  src="/guanyadora%20rifa%201-300h.webp"
-                  className="steps-image2"
-                /> */}
                 <span className="steps-text13 thq-body-small">
                   {props.step1Description}
                 </span>
@@ -71,7 +67,7 @@ const Steps = (props) => {
                 </span>
                 <label className="steps-text14 thq-heading-3">03</label>
               </div>
-              {/* <div className="steps-container5 thq-card">
+              <div className="steps-container5 thq-card">
                 <h2 className="thq-heading-2">{props.step4Title}</h2>
                 <label className="steps-text16 thq-heading-3">04</label>
                 <img
@@ -86,6 +82,7 @@ const Steps = (props) => {
                 />
                 <span className="steps-text17 thq-body-small">
                   {props.step4Description}
+                  {props.step4AditionalDescription}
                 </span>
               </div>
               <div className="steps-container4 thq-card">
@@ -104,7 +101,7 @@ const Steps = (props) => {
                   {props.step5Description}
                 </span>
                 <label className="steps-text14 thq-heading-3">05</label>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
@@ -278,9 +275,15 @@ const Steps = (props) => {
 
 Steps.defaultProps = {
 
+  
+  step5Title: "Divendres de mes d'octubre",
+  step5Description: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 7864",
+  step5AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+  imageSrc8: '/rifes/numeros/num_guanyador_desembre.jpg',
+
   step4Title: "Divendres de mes d'octubre",
-  step4Description: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 7864",
-  /*additionalText: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",*/
+  step4AditionalDescription: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 7864",
+  step4AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
   imageSrc7: '/rifes/numeros/num_guanyador_octubre.jpg',
 
   step3Title: "Divendres de mes de setembre",
@@ -326,6 +329,7 @@ Steps.propTypes = {
 
   step4Title: PropTypes.string,
   step4Description: PropTypes.string,
+  step4AditionalDescription: PropTypes.string,
   imageSrc7: PropTypes.string,
   imageAlt7: PropTypes.string,
   imageSrc8: PropTypes.string,
@@ -333,6 +337,7 @@ Steps.propTypes = {
 
   step5Title: PropTypes.string,
   step5Description: PropTypes.string,
+  step5AditionalDescription: PropTypes.string,
   imageSrc9: PropTypes.string,
   imageAlt9: PropTypes.string,
   imageSrc10: PropTypes.string,
