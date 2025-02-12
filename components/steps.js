@@ -248,7 +248,8 @@ const Steps = (props) => {
             top: 10%;
             position: sticky;
             transform: rotate(2deg);
-            margin-bottom: #f9d35c;
+            margin-bottom: var(--dl-space-space-twounits);
+            background-color:  #f9d35c;
           }
           .steps-containerD {
             top: 10%;
