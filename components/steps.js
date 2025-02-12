@@ -390,7 +390,7 @@ Steps.defaultProps = {
 
   step2Title: "16 d'agost, dia de Sant  Roc",
   step2Description: "Guanyador d'un dinar poliesportiu municipal amb el número 2846",
-  imageSrc3: '/rifes/numeros/num_guanyador_16A.jpg',
+  imageSrc3: '/rifes/numeros/num_guanyadors_16A.jpg',
   imageSrc4: '/rifes/premiats/guanyador_16A.jpg',
 
   step1Title: "15 d'agost, dia de l'Assumpció",
