@@ -75,6 +75,8 @@ const Steps = (props) => {
                 <img
                   alt={props.imageAlt7}
                   src={props.imageSrc7}
+                  className="steps-image1"
+                  style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
                 />
                 <span className="steps-text13 thq-body-small">{props.step4Description}</span>
                 <span className="steps-text10 thq-body-xs">{props.step4AditionalDescription}</span>
