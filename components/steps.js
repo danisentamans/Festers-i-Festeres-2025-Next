@@ -79,11 +79,9 @@ const Steps = (props) => {
                   src={props.imageSrc7}
                   className="steps-image1"
                 />
-                <span className="steps-text17 thq-body-small">
-                  {props.step4Description}
-                  <br /> <br />
-                  {props.step4AditionalDescription}
-                </span>
+                <span className="steps-text17 thq-body-small">{props.step4Description}</span>
+                <span className="steps-text-small">{props.step4AditionalDescription}</span>
+
               </div>
               {/* Añadiendo el paso 5 */}
               <div className="steps-containerA thq-card">
@@ -93,11 +91,9 @@ const Steps = (props) => {
                   src={props.imageSrc9}
                   className="steps-image1"
                 />
-                <span className="steps-text13 thq-body-small">
-                  {props.step5Description}
-                  <br /> <br />
-                  {props.step5AditionalDescription}
-                </span>
+                <span className="steps-text17 thq-body-small">{props.step5Description}</span>
+                <span className="steps-text-small">{props.step5AditionalDescription}</span>
+
                 <label className="steps-text14 thq-heading-3">05</label>
               </div>
               {/* Añadiendo el paso 6 */}
@@ -127,20 +123,40 @@ const Steps = (props) => {
                   src={props.imageSrc12}
                   className="steps-image1"
                 />
-                <span className="steps-text13 thq-body-small">
-                  {props.step7Description}
-                  <br /> <br />
-                  {props.step7AditionalDescription}
-                </span>
+                <span className="steps-text17 thq-body-small">{props.step7Description}</span>
+                <span className="steps-text-small">{props.step7AditionalDescription}</span>
               </div>
+              {/* Añadiendo el paso 8 */}
+              <div className="steps-containerB thq-card">
+                <h2 className="thq-heading-2">{props.step8Title}</h2>
+                <label className="steps-text16 thq-heading-3">06</label>
+                <img
+                  alt={props.imageAlt13}
+                  src={props.imageSrc13}
+                  className="steps-image1"
+                />
+                <span className="steps-text17 thq-body-small">{props.step8Description}</span>
+                <span className="steps-text-small">{props.step8AditionalDescription}</span>
+              </div>
+              {/* Añadiendo el paso 9 */}
+              <div className="steps-containerC thq-card">
+                <h2 className="thq-heading-2">{props.step9Title}</h2>
+                <label className="steps-text16 thq-heading-3">07</label>
+                <img
+                  alt={props.imageAlt15}
+                  src={props.imageSrc15}
+                  className="steps-image1"
+                />
 
+                <span className="steps-text17 thq-body-small">{props.step9Description}</span>
+                <span className="steps-text-small">{props.step9AditionalDescription}</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <style jsx>
-        {`
+        <style jsx>
+          {`
           .steps-container1 {
             width: 100%;
             display: flex;
@@ -329,98 +345,96 @@ const Steps = (props) => {
             }
           }
         `}
-      </style>
-    </>
-  )
+        </style>
+      </>
+      )
 }
 
-Steps.defaultProps = {
-  step7Title: "Rifa extraordinària",
-  step7Description: "Guanyador d'un Iphone 16 amb el número 6993",
-  step7AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
-  imageSrc15: '/rifes/numeros/num_guanyador_iphone.jpg',
-  imageSrc16: '/rifes/premiats/guanyador_iphone.jpg',
+      Steps.defaultProps = {
+        step9Title: "Rifa extraordinària",
+      step9Description: "Guanyador d'un Iphone 16 amb el número 6993",
+      step9AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+      imageSrc15: '/rifes/numeros/num_guanyador_iphone.jpg',
 
-  step6Title: "Divendres de mes de febrer",
-  step6Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número 0974",
-  step6AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
-  imageSrc13: '/rifes/numeros/num_guanyador_febrer.jpg',
-  imageSrc14: '/rifes/premiats/guanyador_febrer.jpg',
+      step8Title: "Divendres de mes de febrer",
+      step8Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número 0974",
+      step8AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+      imageSrc13: '/rifes/numeros/num_guanyador_febrer.jpg',
 
-  step5Title: "Divendres de mes de gener",
-  step5Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número 6154",
-  step5AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
-  imageSrc12: '/rifes/numeros/num_guanyador_gener.jpg',
+      step7Title: "Divendres de mes de gener",
+      step7Description: "Guanyador d'un sopar a la pizzeria Da Vito amb el número 6154",
+      step7AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+      imageSrc12: '/rifes/numeros/num_guanyador_gener.jpg',
 
-  step6Title: "21 de desembre",
-  step6Description: "Guanyadora d'un pernil amb el número 9849",
-  imageSrc10: '/rifes/numeros/num_guanyador_21desembre.jpg',
-  imageSrc11: '/rifes/premiats/guanyador_21desembre.jpg',
+      step6Title: "21 de desembre",
+      step6Description: "Guanyadora d'un pernil amb el número 9849",
+      imageSrc10: '/rifes/numeros/num_guanyador_21desembre.jpg',
+      imageSrc11: '/rifes/premiats/guanyador_21desembre.jpg',
 
-  step5Title: "Divendres de mes de desembre",
-  step5Description: "Premi d'un esmorzar a Ca Blau al número 0639",
-  step5AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
-  imageSrc9: '/rifes/numeros/num_guanyador_desembre.jpg',
+      step5Title: "Divendres de mes de desembre",
+      step5Description: "Premi d'un esmorzar a Ca Blau al número 0639",
+      step5AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+      imageSrc9: '/rifes/numeros/num_guanyador_desembre.jpg',
 
-  step4Title: "Divendres de mes d'octubre",
-  step4Description: "Premi d'un esmorzar a Ca Blau al número 7864",
-  step4AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
-  imageSrc7: '/rifes/numeros/num_guanyador_octubre.jpg',
+      step4Title: "Divendres de mes d'octubre",
+      step4Description: "Premi d'un esmorzar a Ca Blau al número 7864",
+      step4AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+      imageSrc7: '/rifes/numeros/num_guanyador_octubre.jpg',
 
-  step3Title: "Divendres de mes de setembre",
-  step3Description: "Guanyador d'una cistella del Forn Pa i dolç Gran Via amb el número 7864",
-  imageSrc5: '/rifes/numeros/num_guanyador_setembre.jpg',
-  imageSrc6: '/rifes/premiats/guanyador_setembre.jpg',
+      step3Title: "Divendres de mes de setembre",
+      step3Description: "Guanyador d'una cistella del Forn Pa i dolç Gran Via amb el número 7864",
+      imageSrc5: '/rifes/numeros/num_guanyador_setembre.jpg',
+      imageSrc6: '/rifes/premiats/guanyador_setembre.jpg',
 
-  step2Title: "16 d'agost, dia de Sant  Roc",
-  step2Description: "Guanyador d'un dinar poliesportiu municipal amb el número 2846",
-  imageSrc3: '/rifes/numeros/num_guanyador_16A.jpg',
-  imageSrc4: '/rifes/premiats/guanyador_16A.jpg',
+      step2Title: "16 d'agost, dia de Sant  Roc",
+      step2Description: "Guanyador d'un dinar poliesportiu municipal amb el número 2846",
+      imageSrc3: '/rifes/numeros/num_guanyador_16A.jpg',
+      imageSrc4: '/rifes/premiats/guanyador_16A.jpg',
 
-  step1Title: "15 d'agost, dia de l'Assumpció",
-  step1Description: "Guanyadora d'un pernil amb el número 7021",
-  imageSrc1: '/rifes/numeros/num_guanyador_15A.jpg',
-  imageSrc2: '/rifes/premiats/guanyador_15A.jpeg',
+      step1Title: "15 d'agost, dia de l'Assumpció",
+      step1Description: "Guanyadora d'un pernil amb el número 7021",
+      imageSrc1: '/rifes/numeros/num_guanyador_15A.jpg',
+      imageSrc2: '/rifes/premiats/guanyador_15A.jpeg',
 };
 
-Steps.propTypes = {
-  step7Title: PropTypes.string,
-  step7Description: PropTypes.string,
-  step7AditionalDescription: PropTypes.string,
-  imageSrc15: PropTypes.string,
-  imageSrc16: PropTypes.string,
+      Steps.propTypes = {
+        step7Title: PropTypes.string,
+      step7Description: PropTypes.string,
+      step7AditionalDescription: PropTypes.string,
+      imageSrc15: PropTypes.string,
+      imageSrc16: PropTypes.string,
 
-  step6Title: PropTypes.string,
-  step6Description: PropTypes.string,
-  step6AditionalDescription: PropTypes.string,
-  imageSrc13: PropTypes.string,
-  imageSrc14: PropTypes.string,
+      step6Title: PropTypes.string,
+      step6Description: PropTypes.string,
+      step6AditionalDescription: PropTypes.string,
+      imageSrc13: PropTypes.string,
+      imageSrc14: PropTypes.string,
 
-  step5Title: PropTypes.string,
-  step5Description: PropTypes.string,
-  step5AditionalDescription: PropTypes.string,
-  imageSrc12: PropTypes.string,
+      step5Title: PropTypes.string,
+      step5Description: PropTypes.string,
+      step5AditionalDescription: PropTypes.string,
+      imageSrc12: PropTypes.string,
 
-  step4Title: PropTypes.string,
-  step4Description: PropTypes.string,
-  step4AditionalDescription: PropTypes.string,
-  imageSrc7: PropTypes.string,
+      step4Title: PropTypes.string,
+      step4Description: PropTypes.string,
+      step4AditionalDescription: PropTypes.string,
+      imageSrc7: PropTypes.string,
 
-  step3Title: PropTypes.string,
-  step3Description: PropTypes.string,
-  imageSrc5: PropTypes.string,
-  imageSrc6: PropTypes.string,
+      step3Title: PropTypes.string,
+      step3Description: PropTypes.string,
+      imageSrc5: PropTypes.string,
+      imageSrc6: PropTypes.string,
 
-  step2Title: PropTypes.string,
-  step2Description: PropTypes.string,
-  imageSrc3: PropTypes.string,
-  imageSrc4: PropTypes.string,
+      step2Title: PropTypes.string,
+      step2Description: PropTypes.string,
+      imageSrc3: PropTypes.string,
+      imageSrc4: PropTypes.string,
 
-  step1Title: PropTypes.string,
-  step1Description: PropTypes.string,
-  imageSrc1: PropTypes.string,
-  imageSrc2: PropTypes.string,
+      step1Title: PropTypes.string,
+      step1Description: PropTypes.string,
+      imageSrc1: PropTypes.string,
+      imageSrc2: PropTypes.string,
 };
 
 
-export default Steps
+      export default Steps
