@@ -219,15 +219,13 @@ const Contact = (props) => {
 }
 
 Contact.defaultProps = {
-  address1: '123 Festivity Street, Guadassuar, Spain',
+  address1: 'C. Industria, 1, Guadasuar, Valencia',
   content3: 'No dubtes en enviarnos un correu!',
   heading1: 'Contacta',
   content5: 'Ens garadaria que ens visitares!',
-  email1: 'info@festersiguadassuar2025.com',
-  phone1: '+34 659988452',
+  email1: 'susiroc2025@gmail.com',
   content1: 'No ho dubtes!',
   content2: 'Estarem encantats de que ens contactes',
-  content4: 'Estigues en contacte amb nosatres per WhatsApp!',
 }
 
 Contact.propTypes = {
