@@ -227,7 +227,7 @@ const Timeline11 = (props) => {
               </div>
               <img
                 alt={props.card1ImageAlt}
-                src="/eliminar2-300w.webp"
+                src="/october.jpg"
                 className="timeline11-image1 thq-img-ratio-1-1"
               />
             </div>
