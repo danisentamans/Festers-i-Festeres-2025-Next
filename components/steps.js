@@ -99,6 +99,7 @@ const Steps = (props) => {
                 />
                 <span className="steps-text13 thq-body-small">
                   {props.step5Description}
+                  {props.step5AditionalDescription}
                 </span>
                 <label className="steps-text14 thq-heading-3">05</label>
               </div>
@@ -274,15 +275,13 @@ const Steps = (props) => {
 }
 
 Steps.defaultProps = {
-
-  
-  step5Title: "Divendres de mes d'octubre",
+  step5Title: "Divendres de mes de desembre",
   step5Description: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 7864",
   step5AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
   imageSrc8: '/rifes/numeros/num_guanyador_desembre.jpg',
 
   step4Title: "Divendres de mes d'octubre",
-  step4AditionalDescription: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 7864",
+  step4Description: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 7864",
   step4AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
   imageSrc7: '/rifes/numeros/num_guanyador_octubre.jpg',
 
@@ -300,8 +299,6 @@ Steps.defaultProps = {
   step1Description: "Guanyadora d'un pernil amb el número 7021",
   imageSrc1: '/rifes/numeros/num_guanyador_15A.jpg',
   imageSrc2: '/rifes/premiats/guanyador_15A.jpeg',
-  
-
 };
 
 
