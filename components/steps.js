@@ -15,9 +15,11 @@ const Steps = (props) => {
                 fet durant l&apos;any.
               </p>
             </div>
-            {/* Añadiendo el paso 1 */}
+
             <div className="steps-container3">
+              {/* Añadiendo el paso 1 */}
               <div className="steps-containerA thq-card">
+                <label className="steps-text14 thq-heading-3">01</label>
                 <h2 className="thq-heading-2">{props.step1Title}</h2>
                 <img
                   alt={props.imageAlt1}
@@ -32,12 +34,12 @@ const Steps = (props) => {
                 <span className="steps-text13 thq-body-small">
                   {props.step1Description}
                 </span>
-                <label className="steps-text14 thq-heading-3">01</label>
               </div>
+
               {/* Añadiendo el paso 2 */}
               <div className="steps-containerB thq-card">
+                <label className="steps-text14 thq-heading-3">02</label>
                 <h2 className="thq-heading-2">{props.step2Title}</h2>
-                <label className="steps-text16 thq-heading-3">02</label>
                 <img
                   alt={props.imageAlt3}
                   src={props.imageSrc3}
@@ -48,12 +50,14 @@ const Steps = (props) => {
                   src={props.imageSrc4}
                   className="steps-image2"
                 />
-                <span className="steps-text17 thq-body-small">
+                <span className="steps-text13 thq-body-small">
                   {props.step2Description}
                 </span>
               </div>
+
               {/* Añadiendo el paso 3 */}
               <div className="steps-containerC thq-card">
+                <label className="steps-text14 thq-heading-3">03</label>
                 <h2 className="thq-heading-2">{props.step3Title}</h2>
                 <img
                   alt={props.imageAlt5}
@@ -65,37 +69,37 @@ const Steps = (props) => {
                   src={props.imageSrc6}
                   className="steps-image2"
                 />
-                <span className="steps-text13 thq-body-small">
-                  {props.step3Description}
-                </span>
-                <label className="steps-text14 thq-heading-3">03</label>
+                <span className="steps-text13 thq-body-small">{props.step3Description}</span>
               </div>
+
               {/* Añadiendo el paso 4 */}
               <div className="steps-containerD thq-card">
                 <h2 className="thq-heading-2">{props.step4Title}</h2>
-                <label className="steps-text16 thq-heading-3">04</label>
+                <label className="steps-text14 thq-heading-3">04</label>
                 <img
                   alt={props.imageAlt7}
                   src={props.imageSrc7}
                   className="steps-image1"
                 />
-                <span className="steps-text17 thq-body-small">{props.step4Description}</span>
-                <span className="steps-text-small">{props.step4AditionalDescription}</span>
+                <span className="steps-text13 thq-body-small">{props.step4Description}</span>
+                <span className="steps-text10 thq-body-small">{props.step4AditionalDescription}</span>
 
               </div>
+
               {/* Añadiendo el paso 5 */}
               <div className="steps-containerA thq-card">
                 <h2 className="thq-heading-2">{props.step5Title}</h2>
+                <label className="steps-text14 thq-heading-3">05</label>
                 <img
                   alt={props.imageAlt9}
                   src={props.imageSrc9}
                   className="steps-image1"
                 />
-                <span className="steps-text17 thq-body-small">{props.step5Description}</span>
-                <span className="steps-text-small">{props.step5AditionalDescription}</span>
+                <span className="steps-text13 thq-body-small">{props.step5Description}</span>
+                <span className="steps-text10 thq-body-small">{props.step5AditionalDescription}</span>
 
-                <label className="steps-text14 thq-heading-3">05</label>
               </div>
+
               {/* Añadiendo el paso 6 */}
               <div className="steps-containerB thq-card">
                 <h2 className="thq-heading-2">{props.step6Title}</h2>
@@ -114,6 +118,7 @@ const Steps = (props) => {
                   {props.step6Description}
                 </span>
               </div>
+
               {/* Añadiendo el paso 7 */}
               <div className="steps-containerC thq-card">
                 <h2 className="thq-heading-2">{props.step7Title}</h2>
@@ -126,10 +131,11 @@ const Steps = (props) => {
                 <span className="steps-text17 thq-body-small">{props.step7Description}</span>
                 <span className="steps-text-small">{props.step7AditionalDescription}</span>
               </div>
+
               {/* Añadiendo el paso 8 */}
               <div className="steps-containerB thq-card">
                 <h2 className="thq-heading-2">{props.step8Title}</h2>
-                <label className="steps-text16 thq-heading-3">06</label>
+                <label className="steps-text16 thq-heading-3">08</label>
                 <img
                   alt={props.imageAlt13}
                   src={props.imageSrc13}
@@ -138,10 +144,11 @@ const Steps = (props) => {
                 <span className="steps-text17 thq-body-small">{props.step8Description}</span>
                 <span className="steps-text-small">{props.step8AditionalDescription}</span>
               </div>
+
               {/* Añadiendo el paso 9 */}
               <div className="steps-containerC thq-card">
                 <h2 className="thq-heading-2">{props.step9Title}</h2>
-                <label className="steps-text16 thq-heading-3">07</label>
+                <label className="steps-text16 thq-heading-3">09</label>
                 <img
                   alt={props.imageAlt15}
                   src={props.imageSrc15}
