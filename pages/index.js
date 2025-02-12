@@ -37,15 +37,12 @@ const Home = (props) => {
         <Timeline11
           date1={
             <Fragment>
-              <span className="home-text11 thq-heading-3">
-                <span>12 Octubre, 2024</span>
-                <br></br>
-              </span>
+              <span className="home-text11 thq-body-small">12 d'octubre '24</span>
             </Fragment>
           }
           date2={
             <Fragment>
-              <span className="home-text14 thq-body-small">Carregant...</span>
+              <span className="home-text14 thq-body-small">30 de novembre '24</span>
             </Fragment>
           }
           date3={
@@ -66,14 +63,14 @@ const Home = (props) => {
           card2Title={
             <Fragment>
               <span className="home-text18 thq-heading-3">
-              Espereu per a gaudirles...
+                Espereu per a gaudirles...
               </span>
             </Fragment>
           }
           card3Title={
             <Fragment>
               <span className="home-text19 thq-heading-3">
-              Espereu per a gaudirles...
+                Espereu per a gaudirles...
               </span>
             </Fragment>
           }
@@ -103,7 +100,7 @@ const Home = (props) => {
           card2Content={
             <Fragment>
               <span className="home-text24 thq-body-small">
-              Carregant les millors festes per a vosaltres!
+                Carregant les millors festes per a vosaltres!
               </span>
             </Fragment>
           }
@@ -120,7 +117,7 @@ const Home = (props) => {
           card3Content={
             <Fragment>
               <span className="home-text27 thq-body-small">
-              Carregant les millors festes per a vosaltres!
+                Carregant les millors festes per a vosaltres!
               </span>
             </Fragment>
           }
@@ -137,36 +134,36 @@ const Home = (props) => {
           card4Content={
             <Fragment>
               <span className="home-text30 thq-body-small">
-              Carregant les millors festes per a vosaltres!
+                Carregant les millors festes per a vosaltres!
               </span>
             </Fragment>
           }
         ></Timeline11>
         {/* <Features2></Features2> */}
-         {/* Sección de Steps con ID "steps" */}
-         <div id="steps">
+        {/* Sección de Steps con ID "steps" */}
+        <div id="steps">
           <Steps />
         </div>
         <div id="testimonial">
-        <Testimonial
-          content1="Presidents que ens faran gaudir d'aquetes festes"
-          heading1="Presidents"
-          author1Name="Paula"
-          review1="La força imparable que porta l'alegria i la passió a cada racó de Guadassuar!"
-          author1Position = "Presidenta"
-          author2Name="Jose Manuel"
-          review2="El lideratge tranquil que uneix tradició i festa amb un somriure contagiós!"
-          author2Position = "President"
-          author3Name="Laia"
-          review3="La llum que fa brillar cada celebració amb la seua energia i entusiasme inesgotable!"
-          author3Position = "Vicepresidenta"
-          author4Name="Miguel"
-          review4="El cor valent que transforma cada moment en una explosió de diversió i germanor!"
-          author4Position = "Vicepresident"
-        ></Testimonial>
+          <Testimonial
+            content1="Presidents que ens faran gaudir d'aquetes festes"
+            heading1="Presidents"
+            author1Name="Paula"
+            review1="La força imparable que porta l'alegria i la passió a cada racó de Guadassuar!"
+            author1Position="Presidenta"
+            author2Name="Jose Manuel"
+            review2="El lideratge tranquil que uneix tradició i festa amb un somriure contagiós!"
+            author2Position="President"
+            author3Name="Laia"
+            review3="La llum que fa brillar cada celebració amb la seua energia i entusiasme inesgotable!"
+            author3Position="Vicepresidenta"
+            author4Name="Miguel"
+            review4="El cor valent que transforma cada moment en una explosió de diversió i germanor!"
+            author4Position="Vicepresident"
+          ></Testimonial>
         </div>
         <div id="contact">
-        <Contact></Contact>
+          <Contact></Contact>
         </div>
         <Footer></Footer>
       </div>
