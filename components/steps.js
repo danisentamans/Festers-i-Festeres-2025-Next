@@ -80,7 +80,7 @@ const Steps = (props) => {
                 <img
                   alt={props.imageAlt7}
                   src={props.imageSrc7}
-                  className="steps-image1"
+                  className="steps-image2"
                 />
                 <span className="steps-text13 thq-body-small">{props.step4Description}</span>
                 <span className="steps-text10 thq-body-xs">{props.step4AditionalDescription}</span>
@@ -99,7 +99,7 @@ const Steps = (props) => {
                 <img
                   alt={props.imageAlt9}
                   src={props.imageSrc9}
-                  className="steps-image1"
+                  className="steps-image2"
                 />
                 <span className="steps-text13 thq-body-small">{props.step5Description}</span>
                 <span className="steps-text10 thq-body-xs">{props.step5AditionalDescription}</span>
@@ -166,7 +166,7 @@ const Steps = (props) => {
                 <img
                   alt={props.imageAlt15}
                   src={props.imageSrc15}
-                  className="steps-image2"
+                  className="steps-image1"
                 />
                 <img
                   alt={props.imageAlt16}
