@@ -278,10 +278,10 @@ const Steps = (props) => {
 
 Steps.defaultProps = {
 
-  step3Title: "Divendres de mes d'octubre",
-  step3Description: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 7864",
+  step4Title: "Divendres de mes d'octubre",
+  step4Description: "Premi d'un esmorzar a la Cervesseria Ca Blau al número 7864",
   /*additionalText: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",*/
-  imageSrc5: '/rifes/numeros/num_guanyador_octubre.jpg',
+  imageSrc7: '/rifes/numeros/num_guanyador_octubre.jpg',
 
   step3Title: "Divendres de mes de setembre",
   step3Description: "Guanyador d'una cistella del Forn Pa i dolç Gran Via amb el número 7864",
