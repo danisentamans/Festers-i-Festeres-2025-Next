@@ -867,8 +867,6 @@ Timeline11.defaultProps = {
     'https://images.unsplash.com/photo-1727988358527-d33dc1c11fe6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODI5NTgxOXw&ixlib=rb-4.0.3&q=80&w=600',
   card3Action1: undefined,
   date3: undefined,
-  card2ImageSrc:
-    'https://images.unsplash.com/photo-1720238281873-51965cef637d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODI5NTgxOXw&ixlib=rb-4.0.3&q=80&w=600',
   card2Action2: undefined,
   card4ImageSrc:
     "/loading.gif",
@@ -897,7 +895,6 @@ Timeline11.propTypes = {
   card3ImageSrc: PropTypes.string,
   card3Action1: PropTypes.element,
   date3: PropTypes.element,
-  card2ImageSrc: PropTypes.string,
   card2Action2: PropTypes.element,
   card4ImageSrc: PropTypes.string,
   card3Content: PropTypes.element,
