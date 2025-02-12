@@ -31,9 +31,7 @@ const Steps = (props) => {
                   src={props.imageSrc2}
                   className="steps-image2"
                 />
-                <span className="steps-text13 thq-body-small">
-                  {props.step1Description}
-                </span>
+                <span className="steps-text13 thq-body-small">{props.step1Description}</span>
               </div>
 
               {/* Añadiendo el paso 2 */}
@@ -50,9 +48,7 @@ const Steps = (props) => {
                   src={props.imageSrc4}
                   className="steps-image2"
                 />
-                <span className="steps-text13 thq-body-small">
-                  {props.step2Description}
-                </span>
+                <span className="steps-text13 thq-body-small">{props.step2Description}</span>
               </div>
 
               {/* Añadiendo el paso 3 */}
@@ -82,7 +78,7 @@ const Steps = (props) => {
                   className="steps-image1"
                 />
                 <span className="steps-text13 thq-body-small">{props.step4Description}</span>
-                <span className="steps-text10 thq-body-small">{props.step4AditionalDescription}</span>
+                <span className="steps-text10 thq-body-xs">{props.step4AditionalDescription}</span>
 
               </div>
 
@@ -96,7 +92,7 @@ const Steps = (props) => {
                   className="steps-image1"
                 />
                 <span className="steps-text13 thq-body-small">{props.step5Description}</span>
-                <span className="steps-text10 thq-body-small">{props.step5AditionalDescription}</span>
+                <span className="steps-text10 thq-body-xs">{props.step5AditionalDescription}</span>
 
               </div>
 
@@ -114,9 +110,7 @@ const Steps = (props) => {
                   src={props.imageSrc11}
                   className="steps-image2"
                 />
-                <span className="steps-text13 thq-body-small">
-                  {props.step6Description}
-                </span>
+                <span className="steps-text13 thq-body-small">{props.step6Description}</span>
               </div>
 
               {/* Añadiendo el paso 7 */}
@@ -129,7 +123,7 @@ const Steps = (props) => {
                   className="steps-image1"
                 />
                 <span className="steps-text17 thq-body-small">{props.step7Description}</span>
-                <span className="steps-text-small">{props.step7AditionalDescription}</span>
+                <span className="steps-text10 thq-body-xs">{props.step7AditionalDescription}</span>
               </div>
 
               {/* Añadiendo el paso 8 */}
@@ -142,7 +136,7 @@ const Steps = (props) => {
                   className="steps-image1"
                 />
                 <span className="steps-text13 thq-body-small">{props.step8Description}</span>
-                <span className="steps-text10 thq-body-small">{props.step8AditionalDescription}</span>
+                <span className="steps-text10 thq-body-xs">{props.step8AditionalDescription}</span>
               </div>
 
               {/* Añadiendo el paso 9 */}
@@ -156,7 +150,7 @@ const Steps = (props) => {
                 />
 
                 <span className="steps-text13 thq-body-small">{props.step9Description}</span>
-                <span className="steps-text10 thq-body-small">{props.step9AditionalDescription}</span>
+                <span className="steps-text5 thq-body-xs">{props.step9AditionalDescription}</span>
               </div>
             </div>
           </div>
