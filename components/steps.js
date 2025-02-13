@@ -231,6 +231,7 @@ const Steps = (props) => {
             font-style: normal;
             font-weight: 700;
             color: white;
+            z-index: 2;
           }
           .steps-container5 {
             top: 10%;
