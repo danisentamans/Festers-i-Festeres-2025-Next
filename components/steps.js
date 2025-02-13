@@ -230,7 +230,7 @@ const Steps = (props) => {
             font-size: 40px;
             font-style: normal;
             font-weight: 700;
-            color: white;
+            color: rgb(255, 255, 255, 0.1);
           }
           .steps-container5 {
             top: 10%;
