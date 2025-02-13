@@ -264,30 +264,26 @@ const Testimonial = (props) => {
 }
 
 Testimonial.defaultProps = {
-  author1Src:
-    'https://images.unsplash.com/photo-1470406852800-b97e5d92e2aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODI4NzUyOHw&ixlib=rb-4.0.3&q=80&w=1080',
-  author3Src:
-    'https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODI4NzUyOHw&ixlib=rb-4.0.3&q=80&w=1080',
-  author2Src:
-    'https://images.unsplash.com/photo-1683009427500-71296178737f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODI4NzUyOHw&ixlib=rb-4.0.3&q=80&w=1080',
+  author1Src: '/presis/paula.jpg',
+  author3Src: '/presis/josema.jpg',
+  author2Src: '/presis/laia.jpg',
+  author4Src: '/presis/miguel.jpg',
+  review1:
+    'The festivity was a huge success thanks to the amazing team behind it!',
   review2:
     "I had a great time at the festivity, looking forward to next year's event!",
+    review3:
+      'Volunteering at the festivity was a rewarding experience, I met wonderful people and had a lot of fun!',
   review4:
     "Proud to sponsor such a fantastic event, can't wait for the next edition!",
   heading1: 'Testimonials',
   author2Position: 'Local Resident',
-  review1:
-    'The festivity was a huge success thanks to the amazing team behind it!',
   author4Name: 'Pedro Sanchez',
   author3Position: 'Volunteer',
-  author4Src:
-    'https://images.unsplash.com/photo-1516906736502-5d3fedc3019a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyODI4NzUyOHw&ixlib=rb-4.0.3&q=80&w=1080',
   author4Alt: 'Image of Pedro Sanchez',
   author1Position: 'Event Coordinator',
   author3Alt: 'Image of Ana Garcia',
   author1Alt: 'Image of Maria Lopez',
-  review3:
-    'Volunteering at the festivity was a rewarding experience, I met wonderful people and had a lot of fun!',
   author4Position: 'Sponsor',
   author2Alt: 'Image of Juan Martinez',
   content1:
