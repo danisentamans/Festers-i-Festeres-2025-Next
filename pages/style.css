@@ -424,28 +424,28 @@
 .thq-img-scale:hover {
   scale: 1.05;
 }
-.thq-animated-card-bg-1A,
-.thq-animated-card-bg-1B {
+.thq-animated-card-bg-1 {
   width: 100%;
   height: 100%;
   transition: transform 0.3s;
   border-radius: var(--dl-radius-radius-cardradius);
-}
-
-.thq-animated-card-bg-2A,
-.thq-animated-card-bg-2B {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.3s;
-  border-radius: var(--dl-radius-radius-cardradius);
-}
-
-.thq-animated-card-bg-1A,
-.thq-animated-card-bg-2A {
   background-color: var(--dl-color-theme-accent1);
 }
-.thq-animated-card-bg-2B,
-.thq-animated-card-bg-2B {
+.thq-animated-card-bg-2 {
+  transition: transform 0.3s;
+  border-radius: var(--dl-radius-radius-cardradius);
+  background-color: var(--dl-color-theme-accent2);
+}
+.thq-animated-card-bg-1 {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+  border-radius: var(--dl-radius-radius-cardradius);
+  background-color: var(--dl-color-theme-accent1);
+}
+.thq-animated-card-bg-2 {
+  transition: transform 0.3s;
+  border-radius: var(--dl-radius-radius-cardradius);
   background-color: var(--dl-color-theme-accent2);
 }
 .thq-button-animated {

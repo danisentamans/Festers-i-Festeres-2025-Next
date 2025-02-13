@@ -14,8 +14,8 @@ const Testimonial = (props) => {
             </span>
           </div>
           <div className="thq-grid-2">
-            <div className="thq-animated-card-bg-2A">
-              <div className="thq-animated-card-bg-1A">
+            <div className="thq-animated-card-bg-2">
+              <div className="thq-animated-card-bg-1">
                 <div
                   data-animated="true"
                   className="thq-card testimonial-card1"
@@ -41,8 +41,8 @@ const Testimonial = (props) => {
                 </div>
               </div>
             </div>
-            <div className="thq-animated-card-bg-2B">
-              <div className="thq-animated-card-bg-1B">
+            <div className="thq-animated-card-bg-2">
+              <div className="thq-animated-card-bg-1">
                 <div
                   data-animated="true"
                   className="thq-card testimonial-card2"
@@ -68,8 +68,8 @@ const Testimonial = (props) => {
                 </div>
               </div>
             </div>
-            <div className="thq-animated-card-bg-2A">
-              <div className="thq-animated-card-bg-1A">
+            <div className="thq-animated-card-bg-2">
+              <div className="thq-animated-card-bg-1">
                 <div
                   data-animated="true"
                   className="thq-card testimonial-card3"
@@ -95,8 +95,8 @@ const Testimonial = (props) => {
                 </div>
               </div>
             </div>
-            <div className="thq-animated-card-bg-2B">
-              <div className="thq-animated-card-bg-1B">
+            <div className="thq-animated-card-bg-2">
+              <div className="thq-animated-card-bg-1">
                 <div
                   data-animated="true"
                   className="thq-card testimonial-card4"
