@@ -264,10 +264,10 @@ const Testimonial = (props) => {
 }
 
 Testimonial.defaultProps = {
-  author1Src: '/presis/paula.jpg',
-  author3Src: '/presis/josema.jpg',
-  author2Src: '/presis/laia.jpg',
-  author4Src: '/presis/miguel.jpg',
+  author1Src: '/presis/paula.png',
+  author3Src: '/presis/josema.png',
+  author2Src: '/presis/laia.png',
+  author4Src: '/presis/miguel.png',
   review1:
     'The festivity was a huge success thanks to the amazing team behind it!',
   review2:
