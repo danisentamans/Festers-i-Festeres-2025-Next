@@ -362,7 +362,7 @@ Steps.defaultProps = {
   step9Description: "Regal d'un Iphone 16 amb el número 6993",
   step9AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
   imageSrc15: '/rifes/numeros/rifa_iphone.jpg',
-  imageSrc16: '/rifes/numeros/num_guanyador_iphone.jpg',
+  imageSrc16: '/rifes/numeros/num_guanyador_iphone.png',
 
   step8Title: "Divendres de mes de febrer",
   step8Description: "Regal d'un sopar a la pizzeria Da Vito amb el número 0974",
