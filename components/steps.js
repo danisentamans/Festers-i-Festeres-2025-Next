@@ -205,6 +205,7 @@ const Steps = (props) => {
             height: 210px;
             align-self: flex-start;
             margin-top: 10%;
+            transform: rotate(2deg);
             object-fit: cover;
             margin-left: 5%;
             margin-bottom: 10%;
@@ -214,6 +215,7 @@ const Steps = (props) => {
             height: 219px;
             align-self: flex-end;
             margin-top: -50%;
+            transform: rotate(-2deg);
             object-fit: cover;
             margin-right: 10%;
           }
