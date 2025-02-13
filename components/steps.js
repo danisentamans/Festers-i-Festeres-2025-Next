@@ -19,8 +19,8 @@ const Steps = (props) => {
             <div className="steps-container3">
               {/* Añadiendo el paso 1 */}
               <div className="steps-containerA thq-card">
-                <label className="steps-text14 thq-heading-3">01</label>
-                <h2 className="thq-heading-2">{props.step1Title}</h2>
+                <label className="steps-text14 thq-heading-2">01</label>
+                <h2 className="thq-heading-3">{props.step1Title}</h2>
                 <img
                   alt={props.imageAlt1}
                   src={props.imageSrc1}
@@ -36,8 +36,8 @@ const Steps = (props) => {
 
               {/* Añadiendo el paso 2 */}
               <div className="steps-containerB thq-card">
-                <label className="steps-text14 thq-heading-3">02</label>
-                <h2 className="thq-heading-2">{props.step2Title}</h2>
+                <label className="steps-text14 thq-heading-2">02</label>
+                <h2 className="thq-heading-3">{props.step2Title}</h2>
                 <img
                   alt={props.imageAlt3}
                   src={props.imageSrc3}
@@ -53,8 +53,8 @@ const Steps = (props) => {
 
               {/* Añadiendo el paso 3 */}
               <div className="steps-containerC thq-card">
-                <label className="steps-text14 thq-heading-3">03</label>
-                <h2 className="thq-heading-2">{props.step3Title}</h2>
+                <label className="steps-text14 thq-heading-2">03</label>
+                <h2 className="thq-heading-3">{props.step3Title}</h2>
                 <img
                   alt={props.imageAlt5}
                   src={props.imageSrc5}
@@ -70,8 +70,8 @@ const Steps = (props) => {
 
               {/* Añadiendo el paso 4 */}
               <div className="steps-containerD thq-card">
-                <h2 className="thq-heading-2">{props.step4Title}</h2>
                 <label className="steps-text14 thq-heading-3">04</label>
+                <h2 className="thq-heading-2">{props.step4Title}</h2>
                 <img
                   alt={props.imageAlt7}
                   src={props.imageSrc7}
