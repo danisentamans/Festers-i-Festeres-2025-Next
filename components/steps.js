@@ -99,7 +99,7 @@ const Steps = (props) => {
               {/* Añadiendo el paso 6 */}
               <div className="steps-containerB thq-card">
                 <h2 className="thq-heading-2">{props.step6Title}</h2>
-                <label className="steps-text16 thq-heading-3">06</label>
+                <label className="steps-text14 thq-heading-3">06</label>
                 <img
                   alt={props.imageAlt10}
                   src={props.imageSrc10}
@@ -116,7 +116,7 @@ const Steps = (props) => {
               {/* Añadiendo el paso 7 */}
               <div className="steps-containerC thq-card">
                 <h2 className="thq-heading-2">{props.step7Title}</h2>
-                <label className="steps-text16 thq-heading-3">07</label>
+                <label className="steps-text14 thq-heading-3">07</label>
                 <img
                   alt={props.imageAlt12}
                   src={props.imageSrc12}
@@ -129,7 +129,7 @@ const Steps = (props) => {
               {/* Añadiendo el paso 8 */}
               <div className="steps-containerD thq-card">
                 <h2 className="thq-heading-2">{props.step8Title}</h2>
-                <label className="steps-text16 thq-heading-3">08</label>
+                <label className="steps-text14 thq-heading-3">08</label>
                 <img
                   alt={props.imageAlt13}
                   src={props.imageSrc13}
@@ -142,7 +142,7 @@ const Steps = (props) => {
               {/* Añadiendo el paso 9 */}
               <div className="steps-containerA thq-card">
                 <h2 className="thq-heading-2">{props.step9Title}</h2>
-                <label className="steps-text16 thq-heading-3">09</label>
+                <label className="steps-text14 thq-heading-3">09</label>
                 <img
                   alt={props.imageAlt15}
                   src={props.imageSrc15}
