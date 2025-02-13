@@ -377,7 +377,7 @@ Steps.defaultProps = {
   step6Title: "21 de desembre",
   step6Description: "Guanyadora d'un pernil amb el número 9849",
   imageSrc10: '/rifes/numeros/num_guanyador_21desembre.jpg',
-  imageSrc11: '/rifes/premiats/guanyador_21desembre.jpg',
+  imageSrc11: '/rifes/premiats/guanyador_21desembre.jpeg',
 
   step5Title: "Divendres de mes de desembre",
   step5Description: "Regal d'un esmorzar a Ca Blau al número 0639",
