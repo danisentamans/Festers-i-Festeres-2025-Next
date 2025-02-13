@@ -175,12 +175,14 @@
   font-family: STIX Two Text;
   font-weight: 600;
   line-height: 1.5;
+  z-index: 1;
 }
 .thq-heading-3 {
   font-size: 26px;
   font-family: STIX Two Text;
   font-weight: 600;
   line-height: 1.5;
+  z-index: 2;
 }
 .thq-body-large {
   font-size: 18px;

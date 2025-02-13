@@ -84,8 +84,8 @@ const Steps = (props) => {
 
               {/* Añadiendo el paso 5 */}
               <div className="steps-containerA thq-card">
-                <h2 className="thq-heading-2">{props.step5Title}</h2>
                 <label className="steps-text14 thq-heading-3">05</label>
+                <h2 className="thq-heading-2">{props.step5Title}</h2>
                 <img
                   alt={props.imageAlt9}
                   src={props.imageSrc9}
@@ -98,8 +98,8 @@ const Steps = (props) => {
 
               {/* Añadiendo el paso 6 */}
               <div className="steps-containerB thq-card">
-                <h2 className="thq-heading-2">{props.step6Title}</h2>
                 <label className="steps-text14 thq-heading-3">06</label>
+                <h2 className="thq-heading-2">{props.step6Title}</h2>
                 <img
                   alt={props.imageAlt10}
                   src={props.imageSrc10}
@@ -115,8 +115,8 @@ const Steps = (props) => {
 
               {/* Añadiendo el paso 7 */}
               <div className="steps-containerC thq-card">
-                <h2 className="thq-heading-2">{props.step7Title}</h2>
                 <label className="steps-text14 thq-heading-3">07</label>
+                <h2 className="thq-heading-2">{props.step7Title}</h2>
                 <img
                   alt={props.imageAlt12}
                   src={props.imageSrc12}
@@ -128,8 +128,8 @@ const Steps = (props) => {
 
               {/* Añadiendo el paso 8 */}
               <div className="steps-containerD thq-card">
-                <h2 className="thq-heading-2">{props.step8Title}</h2>
                 <label className="steps-text14 thq-heading-3">08</label>
+                <h2 className="thq-heading-2">{props.step8Title}</h2>
                 <img
                   alt={props.imageAlt13}
                   src={props.imageSrc13}
@@ -141,8 +141,8 @@ const Steps = (props) => {
 
               {/* Añadiendo el paso 9 */}
               <div className="steps-containerA thq-card">
-                <h2 className="thq-heading-2">{props.step9Title}</h2>
                 <label className="steps-text14 thq-heading-3">09</label>
+                <h2 className="thq-heading-2">{props.step9Title}</h2>
                 <img
                   alt={props.imageAlt15}
                   src={props.imageSrc15}
@@ -231,7 +231,6 @@ const Steps = (props) => {
             font-style: normal;
             font-weight: 700;
             color: white;
-            z-index: 2;
           }
           .steps-container5 {
             top: 10%;
