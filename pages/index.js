@@ -32,6 +32,7 @@ const Home = (props) => {
           heading1="Benvingut a la pàgina dels Festers de Sant Roc i Festeres de la Assumpció de Guadassuar 2025!"
           image1Src="/october.jpg"
           image2Src="/reset.jpg"
+          image3Src="/mig_any.jpg"
           rootClassName="heroroot-class-name"
         ></Hero>
         <h1 id="upcoming-events">Festes</h1>
@@ -70,7 +71,7 @@ const Home = (props) => {
           }
           date3={
             <Fragment>
-              <span className="home-text15 thq-body-small">Carregant...</span>
+              <span className="home-text15 thq-body-small">22 de febrer '25</span>
             </Fragment>
           }
           card3Title={
@@ -80,7 +81,7 @@ const Home = (props) => {
           }
           card3Content={
             <Fragment>
-              <span className="home-text25">Pròximament més informació.</span>
+              <span className="home-text25">Encetem el compte enrere per a les pròximes Danses!</span>
             </Fragment>
           }
           date4={

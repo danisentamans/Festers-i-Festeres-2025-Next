@@ -309,7 +309,7 @@ const Timeline11 = (props) => {
               </div>
               <img
                 alt={props.card3ImageAlt}
-                src="/loading.gif"
+                src="/mig_any.jpg"
                 className="timeline11-image1 thq-img-ratio-1-1"
               />
             </div>
