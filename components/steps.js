@@ -154,7 +154,7 @@ const Steps = (props) => {
               </div>
 
               {/* Añadiendo el paso 10 */}
-              <div className="steps-containerA thq-card">
+              <div className="steps-containerB thq-card">
                 <label className="steps-text14 thq-heading-2">10</label>
                 <h2 className="thq-heading-3">{props.step10Title}</h2>
                 <img
