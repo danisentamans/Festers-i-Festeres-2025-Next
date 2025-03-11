@@ -9,6 +9,7 @@ const Timeline11 = (props) => {
   const [step3, setStep3] = useState(false)
   const [container0, setContainer0] = useState(true)
   const [container3, setContainer3] = useState(false)
+  const [container4, setContainer4] = useState(false)
   const [step0, setStep0] = useState(true)
   const [step2, setStep2] = useState(false)
   return (
@@ -22,6 +23,7 @@ const Timeline11 = (props) => {
                 setContainer0(true)
                 setContainer2(false)
                 setContainer3(false)
+                setContainer4(false)
                 setContainer1(false)
                 setStep1(false)
                 setStep2(false)
@@ -53,6 +55,7 @@ const Timeline11 = (props) => {
                   setStep2(false)
                   setStep1(true)
                   setContainer3(false)
+                  setContainer4(false)
                 }}
                 className="timeline11-container14"
               >
@@ -77,6 +80,7 @@ const Timeline11 = (props) => {
                   setContainer1(true)
                   setStep3(false)
                   setContainer3(false)
+                  setContainer4(false)
                   setStep2(false)
                   setStep0(true)
                 }}
@@ -103,6 +107,7 @@ const Timeline11 = (props) => {
                 onClick={() => {
                   setStep1(true)
                   setContainer3(false)
+                  setContainer4(false)
                   setStep2(true)
                   setContainer2(true)
                   setContainer0(false)
@@ -132,6 +137,7 @@ const Timeline11 = (props) => {
                   setContainer1(false)
                   setContainer0(false)
                   setContainer3(false)
+                  setContainer4(false)
                 }}
                 className="timeline11-container22"
               >
@@ -160,6 +166,7 @@ const Timeline11 = (props) => {
                   setStep0(true)
                   setStep3(true)
                   setContainer3(true)
+                  setContainer4(true)
                 }}
                 className="timeline11-container26"
               >
@@ -315,6 +322,46 @@ const Timeline11 = (props) => {
             </div>
           )}
           {container3 && (
+            <div className="timeline11-container38">
+              <div className="timeline11-content-container4 thq-flex-column">
+                <h3>{props.date4 ?? (
+                    <Fragment>
+                      <span className="timeline11-text40 thq-body-small">
+                        June 5, 2025
+                      </span>
+                    </Fragment>
+                  )}</h3>
+                <h3>
+                  {props.card4Title ?? (
+                    <Fragment>
+                      <h3 className="timeline11-text38 thq-heading-3">
+                        Closing Gala
+                      </h3>
+                    </Fragment>
+                  )}
+                </h3>
+                <span>
+                  {props.card4Content ?? (
+                    <Fragment>
+                      <span className="timeline11-text35 thq-body-small">
+                        Celebrate the end of Festers i Festeres Guadassuar 2025
+                        with a spectacular gala featuring live music, dance
+                        performances, and fireworks.
+                      </span>
+                    </Fragment>
+                  )}
+                </span>
+                <div className="timeline11-container39">
+                </div>
+              </div>
+              <img
+                alt={props.card4ImageAlt}
+                src="/remember.jpg"
+                className="timeline11-image1 thq-img-ratio-1-1"
+              />
+            </div>
+          )}
+          {container4 && (
             <div className="timeline11-container38">
               <div className="timeline11-content-container4 thq-flex-column">
                 <h3>{props.date4 ?? (

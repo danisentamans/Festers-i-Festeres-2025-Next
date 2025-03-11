@@ -361,16 +361,21 @@ const Steps = (props) => {
 }
 
 Steps.defaultProps = {
-  step9Title: "Rifa extraordinària de fira",
-  step9Description: "Regal d'un Iphone 16 amb el número 6993",
-  step9AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
-  imageSrc15: '/rifes/numeros/num_guanyador_iphone.png',
-  imageSrc16: '/rifes/numeros/rifa_iphone.jpg',
+  step10Title: "Divendres de mes de març",
+  step10Description: "Regal d'un sopar a la pizzeria Da Vito amb el número 1131",
+  step10AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+  imageSrc16: '/rifes/numeros/num_guanyador_marc.jpg',
 
-  step8Title: "Divendres de mes de febrer",
-  step8Description: "Regal d'un sopar a la pizzeria Da Vito amb el número 0974",
+  step9Title: "Divendres de mes de febrer",
+  step9Description: "Regal d'un sopar a la pizzeria Da Vito amb el número 0974",
+  step9AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
+  imageSrc15: '/rifes/numeros/num_guanyador_febrer.png',
+
+  step8Title: "Rifa extraordinària de fira",
+  step8Description: "Regal d'un Iphone 16 amb el número 6993",
   step8AditionalDescription: "No premiat. Revisa les teues papeletes i fica't en contacte amb els i les festeres",
-  imageSrc13: '/rifes/numeros/num_guanyador_febrer.png',
+  imageSrc13: '/rifes/numeros/num_guanyador_iphone.png',
+  imageSrc14: '/rifes/numeros/rifa_iphone.jpg',
 
   step7Title: "Divendres de mes de gener",
   step7Description: "Regal d'un sopar a la pizzeria Da Vito amb el número 6154",

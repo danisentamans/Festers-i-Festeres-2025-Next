@@ -33,6 +33,7 @@ const Home = (props) => {
           image1Src="/october.jpg"
           image2Src="/reset.jpg"
           image3Src="/mig_any.jpg"
+          image4Src="/remember.jpg"
           rootClassName="heroroot-class-name"
         ></Hero>
         <h1 id="upcoming-events">Festes</h1>
@@ -81,20 +82,35 @@ const Home = (props) => {
           }
           card3Content={
             <Fragment>
-              <span className="home-text25">Encetem el compte enrere per a les pròximes Danses!</span>
+              <span className="home-text25">El poble de Guadassuar encetàrem el compte enrere per a les pròximes Danses!</span>
             </Fragment>
           }
           date4={
             <Fragment>
-              <span className="home-text16 thq-body-small">Carregant...</span>
+              <span className="home-text16 thq-body-small">29 de març</span>
             </Fragment>
           }
           card4Title={
             <Fragment>
-              <span className="home-text20 thq-heading-3">Torrades</span>
+              <span className="home-text20 thq-heading-3">Festa Remember</span>
             </Fragment>
           }
           card4Content={
+            <Fragment>
+              <span className="home-text25">Reviu els millors anys de la música amb els nostres DJ's locals, DJ Checa i DJ Dam, i el gran DJ José Coll. Després, a partir de la mitja nit, Reggaeton Party!</span>
+            </Fragment>
+          }
+          date5={
+            <Fragment>
+              <span className="home-text16 thq-body-small">Carregant...</span>
+            </Fragment>
+          }
+          card5Title={
+            <Fragment>
+              <span className="home-text20 thq-heading-3">Torrades</span>
+            </Fragment>
+          }
+          card5Content={
             <Fragment>
               <span className="home-text25">Pròximament més informació.</span>
             </Fragment>
