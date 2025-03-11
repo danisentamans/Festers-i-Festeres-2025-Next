@@ -148,13 +148,23 @@ const Steps = (props) => {
                   src={props.imageSrc15}
                   className="steps-image1"
                 />
+
+                <span className="steps-text13 thq-body-small">{props.step9Description}</span>
+                <span className="steps-text5 thq-body-xs">{props.step9AditionalDescription}</span>
+              </div>
+
+              {/* Añadiendo el paso 10 */}
+              <div className="steps-containerA thq-card">
+                <label className="steps-text14 thq-heading-2">09</label>
+                <h2 className="thq-heading-3">{props.step10Title}</h2>
                 <img
                   alt={props.imageAlt16}
                   src={props.imageSrc16}
                   className="steps-image2"
                 />
-                <span className="steps-text13 thq-body-small">{props.step9Description}</span>
-                <span className="steps-text5 thq-body-xs">{props.step9AditionalDescription}</span>
+                
+                <span className="steps-text13 thq-body-small">{props.step10Description}</span>
+                <span className="steps-text5 thq-body-xs">{props.step10AditionalDescription}</span>
               </div>
 
             </div>
@@ -414,6 +424,11 @@ Steps.defaultProps = {
 };
 
 Steps.propTypes = {
+  step10Title: PropTypes.string,
+  step10Description:  PropTypes.string,
+  step10AditionalDescription:  PropTypes.string,
+  imageSrc16:  PropTypes.string,
+
   step9Title: PropTypes.string,
   step9Description: PropTypes.string,
   step9AditionalDescription: PropTypes.string,

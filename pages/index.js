@@ -87,7 +87,7 @@ const Home = (props) => {
           }
           date4={
             <Fragment>
-              <span className="home-text16 thq-body-small">29 de març</span>
+              <span className="home-text16 thq-body-small">29 de març '25</span>
             </Fragment>
           }
           card4Title={
